@@ -6,5 +6,4 @@ gunicorn
 numpy
 scipy
 pyspellchecker
-language_tool_python
 python-dotenv
