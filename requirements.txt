@@ -4,7 +4,6 @@ requests
 openai
 gunicorn
 numpy
-spacy
 scipy
 spellchecker
 pyspellchecker
