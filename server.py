@@ -7,7 +7,6 @@ from openai import AssistantEventHandler
 import numpy as np
 import json 
 import re
-import spacy
 from scipy import spatial
 # from common_english_words import word_list_set
 from spellchecker import SpellChecker
@@ -34,12 +33,6 @@ tool = language_tool_python.LanguageTool('es')  # Set to Spanish
 
 # Initialize SpellChecker for Spanish
 spell = SpellChecker(language='es')
-
-
-
-# Load the spaCy model
-nlp = spacy.load('en_core_web_md')
-word_list_set = set(nlp.vocab.strings)
 
 class EventHandler(AssistantEventHandler):    
     def __init__(self):
