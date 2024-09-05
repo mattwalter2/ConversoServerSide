@@ -1,0 +1,134 @@
+{
+    "General Conversation": {
+        "A1": {
+            "vocabulary": [
+                "german_A1_vocab.txt"
+            ],
+            "grammar": [
+                "Simple present tense",
+                "Basic noun-verb agreement",
+                "Definite and indefinite articles (der, die, das, ein, eine)",
+                "Personal pronouns (ich, du, er, sie)",
+                "Basic question formation",
+                "Basic adjective agreement",
+                "Numbers (1-20)",
+                "Days of the week"
+            ]
+        },
+        "A2": {
+            "vocabulary": [
+                "german_A1_vocab.txt",
+                "german_A2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense",
+                "Question formation",
+                "Possessive adjectives (mein, dein, sein)",
+                "Adjective agreement",
+                "Use of 'mögen' (to like)",
+                "Prepositions of place (in, an, auf)",
+                "Basic negation (nicht)",
+                "Numbers (20-100)"
+            ]
+        },
+        "B1": {
+            "vocabulary": [
+                "german_A1_vocab.txt",
+                "german_A2_vocab.txt",
+                "german_B1_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with regular verbs",
+                "Basic sentence structure",
+                "Prepositions of place (in, an, auf)",
+                "Use of 'es gibt' (there is/are)",
+                "Direct and indirect object pronouns",
+                "Past simple tense (Präteritum)",
+                "Reflexive verbs (sich waschen, sich anziehen)",
+                "Conjunctions (und, oder, aber)"
+            ]
+        },
+        "B2": {
+            "vocabulary": [
+                "german_A1_vocab.txt",
+                "german_A2_vocab.txt",
+                "german_B1_vocab.txt",
+                "german_B2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with irregular verbs",
+                "Questions and negations",
+                "Comparatives and superlatives",
+                "Past simple tense (Präteritum)",
+                "Use of reflexive verbs",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (basic)"
+            ]
+        },
+        "C1": {
+            "vocabulary": [
+                "german_A1_vocab.txt",
+                "german_A2_vocab.txt",
+                "german_B1_vocab.txt",
+                "german_B2_vocab.txt",
+                "german_C1_vocab.txt"
+            ],
+            "grammar": [
+                "Present continuous tense",
+                "Direct and indirect objects",
+                "Past continuous tense",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (intermediate)",
+                "Relative clauses",
+                "Passive voice"
+            ]
+        },
+        "C2": {
+            "vocabulary": [
+                "german_A1_vocab.txt",
+                "german_A2_vocab.txt",
+                "german_B1_vocab.txt",
+                "german_B2_vocab.txt",
+                "german_C1_vocab.txt",
+                "german_C2_vocab.txt"
+            ],
+            "grammar": [
+                "Present perfect tense",
+                "Reflexive verbs",
+                "Subjunctive mood (advanced)",
+                "Complex sentence structures",
+                "Reported speech",
+                "Idiomatic expressions",
+                "Advanced relative clauses",
+                "Imperfect tense",
+                "Pluperfect tense"
+            ]
+        }
+    },
+    "Introductions": {
+
+    },
+    "Weather": {
+
+    },
+    "Clothing": {
+
+    },
+    "Sports": {
+
+    },
+    "Music": {
+
+    },
+    "Animals": {
+
+    },
+    "Travel": {
+
+    },
+    "Food": {
+
+    }
+}

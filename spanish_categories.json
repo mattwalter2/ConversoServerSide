@@ -1,0 +1,151 @@
+{
+    
+        
+    "General Conversation": {
+        "A1": {
+    
+            "vocabulary": [
+                "A1_vocab.txt"
+            ],
+            "grammar": [
+                "Simple present tense",
+                "Basic noun-verb agreement",
+                "Definite and indefinite articles (el, la, un, una)",
+                "Personal pronouns (yo, tú, él, ella)",
+                "Basic question formation",
+                "Basic adjective agreement",
+                "Numbers (1-20)",
+                "Days of the week"
+            ]
+        },
+        "A2": {
+
+            "vocabulary": [
+                "A1_vocab.txt",
+                "A2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense",
+                "Question formation",
+                "Possessive adjectives (mi, tu, su)",
+                "Adjective agreement",
+                "Use of 'gustar' (to like)",
+                "Prepositions of place (en, a, de)",
+                "Basic negation (no)",
+                "Numbers (20-100)"
+            ]
+        },
+        "B1": {
+       
+            "vocabulary": [
+                "A1_vocab.txt",
+                "A2_vocab.txt",
+                "B1_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with regular verbs",
+                "Basic sentence structure",
+                "Prepositions of place (en, a, de)",
+                "Use of 'hay' (there is/are)",
+                "Direct and indirect object pronouns",
+                "Past simple tense (preterite)",
+                "Reflexive verbs (levantarse, lavarse)",
+                "Conjunctions (y, o, pero)"
+            ]
+        },
+        "B2": {
+           
+            "vocabulary": [
+                "A1_vocab.txt",
+                "A2_vocab.txt",
+                "B1_vocab.txt",
+                "B2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with irregular verbs",
+                "Questions and negations",
+                "Comparatives and superlatives",
+                "Past simple tense (preterite)",
+                "Use of reflexive verbs",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (basic)"
+            ]
+        },
+        "C1": {
+        
+            "vocabulary": [
+                "A1_vocab.txt",
+                "A2_vocab.txt",
+                "B1_vocab.txt",
+                "B2_vocab.txt",
+                "C1_vocab.txt"
+             
+            ],
+            "grammar": [
+                "Present continuous tense",
+                "Direct and indirect objects",
+                "Past continuous tense",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (intermediate)",
+                "Relative clauses",
+                "Passive voice"
+            ]
+        },
+        "C2": {
+           
+            "vocabulary": [
+                "A1_vocab.txt",
+                "A2_vocab.txt",
+                "B1_vocab.txt",
+                "B2_vocab.txt",
+                "C1_vocab.txt",
+                "C2_vocab.txt"
+            ],
+            "grammar": [
+                "Present perfect tense",
+                "Reflexive verbs",
+                "Subjunctive mood (advanced)",
+                "Complex sentence structures",
+                "Reported speech",
+                "Idiomatic expressions",
+                "Advanced relative clauses",
+                "Imperfect tense",
+                "Pluperfect tense"
+            ]
+        }
+    },        
+    "Introductions": {
+       
+    },
+    "Weather": {
+
+    },
+    "Clothing": {
+
+    },
+    "Sports": {
+
+    },
+    "Music": {
+
+    },
+    "Animals": {
+
+    },
+
+    "Travel": {
+       
+    },
+    "Food": {
+        
+    }
+
+   
+}
+
+
+
+
+

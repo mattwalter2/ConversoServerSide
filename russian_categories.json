@@ -1,0 +1,134 @@
+{
+    "General Conversation": {
+        "A1": {
+            "vocabulary": [
+                "russian_A1_vocab.txt"
+            ],
+            "grammar": [
+                "Simple present tense",
+                "Basic noun-verb agreement",
+                "Definite and indefinite articles (нет в русском)",
+                "Personal pronouns (я, ты, он, она)",
+                "Basic question formation",
+                "Basic adjective agreement",
+                "Numbers (1-20)",
+                "Days of the week"
+            ]
+        },
+        "A2": {
+            "vocabulary": [
+                "russian_A1_vocab.txt",
+                "russian_A2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense",
+                "Question formation",
+                "Possessive adjectives (мой, твой, его)",
+                "Adjective agreement",
+                "Use of 'нравиться' (to like)",
+                "Prepositions of place (в, на, из)",
+                "Basic negation (не)",
+                "Numbers (20-100)"
+            ]
+        },
+        "B1": {
+            "vocabulary": [
+                "russian_A1_vocab.txt",
+                "russian_A2_vocab.txt",
+                "russian_B1_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with regular verbs",
+                "Basic sentence structure",
+                "Prepositions of place (в, на, из)",
+                "Use of 'есть' and 'нет' (there is/are)",
+                "Direct and indirect object pronouns",
+                "Past simple tense (preterite)",
+                "Reflexive verbs (просыпаться, умываться)",
+                "Conjunctions (и, или, но)"
+            ]
+        },
+        "B2": {
+            "vocabulary": [
+                "russian_A1_vocab.txt",
+                "russian_A2_vocab.txt",
+                "russian_B1_vocab.txt",
+                "russian_B2_vocab.txt"
+            ],
+            "grammar": [
+                "Present tense with irregular verbs",
+                "Questions and negations",
+                "Comparatives and superlatives",
+                "Past simple tense (preterite)",
+                "Use of reflexive verbs",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (basic)"
+            ]
+        },
+        "C1": {
+            "vocabulary": [
+                "russian_A1_vocab.txt",
+                "russian_A2_vocab.txt",
+                "russian_B1_vocab.txt",
+                "russian_B2_vocab.txt",
+                "russian_C1_vocab.txt"
+            ],
+            "grammar": [
+                "Present continuous tense",
+                "Direct and indirect objects",
+                "Past continuous tense",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (intermediate)",
+                "Relative clauses",
+                "Passive voice"
+            ]
+        },
+        "C2": {
+            "vocabulary": [
+                "russian_A1_vocab.txt",
+                "russian_A2_vocab.txt",
+                "russian_B1_vocab.txt",
+                "russian_B2_vocab.txt",
+                "russian_C1_vocab.txt",
+                "russian_C2_vocab.txt"
+            ],
+            "grammar": [
+                "Present perfect tense",
+                "Reflexive verbs",
+                "Subjunctive mood (advanced)",
+                "Complex sentence structures",
+                "Reported speech",
+                "Idiomatic expressions",
+                "Advanced relative clauses",
+                "Imperfect tense",
+                "Pluperfect tense"
+            ]
+        }
+    },
+    "Introductions": {
+
+    },
+    "Weather": {
+
+    },
+    "Clothing": {
+
+    },
+    "Sports": {
+
+    },
+    "Music": {
+
+    },
+    "Animals": {
+
+    },
+    "Travel": {
+
+    },
+    "Food": {
+
+    }
+}
