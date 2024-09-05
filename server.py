@@ -546,7 +546,3 @@ def check_server():
     server_info = request.environ.get('SERVER_SOFTWARE', 'Unknown')
     return jsonify({'server': server_info}), 200
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001, debug=True)
-
-
