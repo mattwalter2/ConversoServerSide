@@ -7,3 +7,4 @@ numpy
 spacy
 scipy
 spellchecker
+indexer
