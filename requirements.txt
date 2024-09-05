@@ -5,7 +5,6 @@ openai
 gunicorn
 numpy
 scipy
-spellchecker
 pyspellchecker
 language_tool_python
 python-dotenv
