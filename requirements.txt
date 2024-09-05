@@ -6,3 +6,4 @@ gunicorn
 numpy
 spacy
 scipy
+spellchecker
