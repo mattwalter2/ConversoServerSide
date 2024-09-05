@@ -10,7 +10,6 @@ import re
 from scipy import spatial
 # from common_english_words import word_list_set
 from spellchecker import SpellChecker
-import language_tool_python
 import os
 import requests
 from dotenv import load_dotenv
@@ -29,7 +28,6 @@ if not api_key:
 
 print(f"API Key: {api_key}")
 # Initialize LanguageTool for grammar checking
-tool = language_tool_python.LanguageTool('es')  # Set to Spanish
 
 # Initialize SpellChecker for Spanish
 spell = SpellChecker(language='es')
@@ -165,7 +163,6 @@ class OpenAIChat:
         self.english_word_counter_thread = self.client.beta.threads.create()
         self.help_detector_thread = self.client.beta.threads.create()
         self.mistake_detector_thread = self.client.beta.threads.create()
-        self.tool = language_tool_python.LanguageTool('es')  # Set to Spanish
         self.spell = SpellChecker(language='es')  # Spanish spell checker
         
         self.user_response = None
