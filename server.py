@@ -490,7 +490,7 @@ def set_up_chat():
     # Extract 'conversation_topic' and 'users_rating' from the JSON payload
     conversation_topic = data.get('conversation_topic')
     users_rating = data.get('users_rating', 300)  # Default to 300 if not provided
-    language = data.get('language', 'Spanish')
+    language = data.get('language', 'spanish')
 
     # Set the chat topic
     chat1.set_chat_topic(conversation_topic)
