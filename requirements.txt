@@ -7,3 +7,6 @@ numpy
 spacy
 scipy
 spellchecker
+pyspellchecker
+language_tool_python
+python-dotenv
