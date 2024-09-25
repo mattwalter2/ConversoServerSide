@@ -68,7 +68,7 @@ def load_elo_samples(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
 
-def get_random_elo(user_rating, mean=0, std_dev=400):
+def get_random_elo(user_rating, mean=0, std_dev=500):
     random_elo = int(np.random.normal(user_rating, std_dev))
     return max(0, min(2000, random_elo))
 
@@ -265,34 +265,52 @@ class OpenAIChat:
         random_elo = get_random_elo(user_rating)
         self.cefr_level = elo_to_cefr(random_elo)
         vocab_json_file = load_elo_samples(f"{self.language}_categories.json")
-        print(random_elo)
-        print(self.cefr_level)
+
         category_data = vocab_json_file.get("General Conversation")
         
         level_data = category_data.get(self.cefr_level)
         
 
-        vocab_files = level_data.get("vocabulary")
-        vocabulary_files_str = ", ".join(vocab_files)
+        examples = level_data.get("examples")
+        
         grammar = level_data.get("grammar")
 
         if is_user_asking_for_help == 'yes':
             return (
-            f"You are a helpful assistant for helping the user learn {self.language} through a conversation about {topic}. "
-            f"The user currently needs your help in this conversation. Help them with what they need. Make sure your response is in English primarily. Only include {self.language} in the respones if the user asks for a translation or understanding the meaning of a word for instance.", random_elo
-            )
+                    f"You are a helpful assistant for helping the user learn Spanish through a conversation about {topic}. "
+                    f"The user currently needs your help in this conversation. Help them with what they need. "
+                    "Make sure your response is primarily in English. Only include Spanish in the response if the user asks for a translation, clarification on a sentence structure, or understanding the meaning of a word. "
+                    "Ensure the user feels supported and encouraged throughout the conversation. Be patient and provide clear explanations to aid their learning. "
+                    "Here are some examples of how you should respond: "
+                    "Example 1: User: What is 'house' in Spanish? Assistant: 'House' in Spanish is 'casa'. "
+                    "Example 2: User: Can you tell me how to say 'dog' in Spanish? Assistant: 'Dog' in Spanish is 'perro'. "
+                    "Example 3: User: How do you say 'tree' in Spanish? Assistant: 'Tree' in Spanish is 'árbol'. "
+                    "Example 4: User: Could you translate 'book' for me? Assistant: 'Book' in Spanish is 'libro'. "
+                    "Example 5: User: What does 'gracias' mean? Assistant: 'Gracias' means 'thank you' in English. "
+                    "Example 6: User: How do I structure the sentence 'I want to eat' in Spanish? Assistant: In Spanish, 'I want to eat' is structured as 'Yo quiero comer'. You put the verb 'comer' (to eat) after 'quiero' (want). "
+                    "Example 7: User: Why is 'el' used before 'parque'? Assistant: 'El' is used because 'parque' is a masculine noun in Spanish, so it takes the masculine article 'el'. "
+                    "Example 8: User: Can you explain why 'ser' and 'estar' are both used for 'to be'? Assistant: Yes! 'Ser' is used for permanent characteristics, like identity or profession, while 'estar' is used for temporary states, like emotions or locations. "
+                    "Example 9: User: What is the difference between 'por' and 'para'? Assistant: 'Por' is generally used to talk about cause or reason, while 'para' is used for purpose or destination. For example, 'Voy por el parque' means 'I walk through the park', and 'Voy para el parque' means 'I’m going to the park'. "
+                    , random_elo
+                )
         
         else:
         
             return (
-                f"You are a helpful assistant for helping the user learn {self.language} through a conversation about {topic}. "
-                f"You are only allowed to use vocabulary within {vocabulary_files_str} as well as their conjugations and similar words since you are talking at a {self.cefr_level} level. "
-                f"Try to apply these grammar rules in the conversation to help the user learn and get familiar with them: {grammar}. "
-                "If the user makes a mistake, let them know in English that they have made a mistake, tell them what their mistake was, and tell them how to fix it. "
-                f"If the user types a word in English be sure to tell them the word in {self.language} so they know how to say the word from now on. "
-                "Finally, continue the conversation where it left off.", random_elo
-
-            )
+                    f"You are a helpful assistant for helping the user learn Spanish through a conversation about {topic}. "
+                    f"Speak at a similar level to the examples in here: {examples} since you are talking at a {self.cefr_level} level. "
+                    "If the user makes a mistake, let them know in English that they have made a mistake, tell them what their mistake was, and tell them how to fix it. "
+                    "If the user types a word in English be sure to tell them the word in Spanish so they know how to say the word from now on. "
+                    "After giving the correction or translation, continue the conversation in Spanish, focusing on general topics to maintain immersion in the language. Be patient and encouraging, ensuring that the user feels supported as they learn. "
+                    "Here are some examples of how you should correct the user: "
+                    "Example 1: User: Yo quiero como una manzana. Assistant: You made a mistake in your sentence. You used 'como' which means 'I eat', but you should have used 'comer' to mean 'to eat'. The correct sentence is: 'Yo quiero comer una manzana.' "
+                    "Example 2: User: El coche es más rápido que el mío carro. Assistant: You made a mistake in your sentence. You used 'mío' which is a possessive pronoun, but you should use 'mi' as an adjective before 'carro'. The correct sentence is: 'El coche es más rápido que mi carro.' "
+                    "Example 3: User: Nosotros vamos a la parque mañana. Assistant: You made a mistake in your sentence. 'Parque' is a masculine noun, so you should use 'al' instead of 'a la'. The correct sentence is: 'Nosotros vamos al parque mañana.' "
+                    "Example 4: User: Me gustan los gatos mucho porque ellos es muy simpático. Assistant: You made a mistake in your sentence. 'Ellos' is plural, so the verb should be 'son' instead of 'es', and 'simpático' should agree in number with 'ellos'. The correct sentence is: 'Me gustan mucho los gatos porque ellos son muy simpáticos.' "
+                    "Example 5: User: El perro de mi amigo es muy bonito y su pelaje está negro. Assistant: You made a mistake in your sentence. The verb 'está' is used for temporary states, but you should use 'es' for permanent characteristics like color. The correct sentence is: 'El perro de mi amigo es muy bonito y su pelaje es negro.' "
+                    "Example 6: User: Mis padres va a la tienda para comprar las ropas. Assistant: You made a mistake in your sentence. The subject 'Mis padres' is plural, so the verb should be 'van' instead of 'va'. Also, 'ropa' is uncountable in Spanish, so it should be singular. The correct sentence is: 'Mis padres van a la tienda para comprar la ropa.' "
+                    "Finally, continue the conversation where it left off.", random_elo
+                )
         
     def set_chat_topic(self, topic):
         
@@ -443,7 +461,8 @@ class OpenAIChat:
 
         # Combine scores to get the final performance score
         final_score = response_score + advanced_vocab_bonus - english_words_penalty
-        print("final score ", final_score)
+        final_score = max(0, min(final_score, 1))
+        
         return final_score
 
     def calculate_updated_rating(self, user_response, expected_response, difficulty_level):
