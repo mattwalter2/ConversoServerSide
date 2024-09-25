@@ -1,121 +1,214 @@
 {
     
         
-    "General Conversation": {
-        "A1": {
-    
-            "vocabulary": [
-                "A1_vocab.txt"
-            ],
-            "grammar": [
-                "Simple present tense",
-                "Basic noun-verb agreement",
-                "Definite and indefinite articles (el, la, un, una)",
-                "Personal pronouns (yo, tú, él, ella)",
-                "Basic question formation",
-                "Basic adjective agreement",
-                "Numbers (1-20)",
-                "Days of the week"
-            ]
-        },
-        "A2": {
-
-            "vocabulary": [
-                "A1_vocab.txt",
-                "A2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense",
-                "Question formation",
-                "Possessive adjectives (mi, tu, su)",
-                "Adjective agreement",
-                "Use of 'gustar' (to like)",
-                "Prepositions of place (en, a, de)",
-                "Basic negation (no)",
-                "Numbers (20-100)"
-            ]
-        },
-        "B1": {
-       
-            "vocabulary": [
-                "A1_vocab.txt",
-                "A2_vocab.txt",
-                "B1_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with regular verbs",
-                "Basic sentence structure",
-                "Prepositions of place (en, a, de)",
-                "Use of 'hay' (there is/are)",
-                "Direct and indirect object pronouns",
-                "Past simple tense (preterite)",
-                "Reflexive verbs (levantarse, lavarse)",
-                "Conjunctions (y, o, pero)"
-            ]
-        },
-        "B2": {
-           
-            "vocabulary": [
-                "A1_vocab.txt",
-                "A2_vocab.txt",
-                "B1_vocab.txt",
-                "B2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with irregular verbs",
-                "Questions and negations",
-                "Comparatives and superlatives",
-                "Past simple tense (preterite)",
-                "Use of reflexive verbs",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (basic)"
-            ]
-        },
-        "C1": {
-        
-            "vocabulary": [
-                "A1_vocab.txt",
-                "A2_vocab.txt",
-                "B1_vocab.txt",
-                "B2_vocab.txt",
-                "C1_vocab.txt"
-             
-            ],
-            "grammar": [
-                "Present continuous tense",
-                "Direct and indirect objects",
-                "Past continuous tense",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (intermediate)",
-                "Relative clauses",
-                "Passive voice"
-            ]
-        },
-        "C2": {
-           
-            "vocabulary": [
-                "A1_vocab.txt",
-                "A2_vocab.txt",
-                "B1_vocab.txt",
-                "B2_vocab.txt",
-                "C1_vocab.txt",
-                "C2_vocab.txt"
-            ],
-            "grammar": [
-                "Present perfect tense",
-                "Reflexive verbs",
-                "Subjunctive mood (advanced)",
-                "Complex sentence structures",
-                "Reported speech",
-                "Idiomatic expressions",
-                "Advanced relative clauses",
-                "Imperfect tense",
-                "Pluperfect tense"
-            ]
-        }
-    },        
+"General Conversation": {
+      "A1": {
+        "grammar": [
+          "Simple present tense",
+          "Basic noun-verb agreement",
+          "Definite and indefinite articles (el, la, un, una)",
+          "Personal pronouns (yo, tú, él, ella)",
+          "Basic question formation",
+          "Basic adjective agreement",
+          "Numbers (1-20)",
+          "Days of the week"
+        ],
+        "examples": [
+          "Hola, ¿cómo estás?",
+          "Me llamo Ana.",
+          "¿Dónde vives?",
+          "Vivo en una casa grande.",
+          "¿Cuántos años tienes?",
+          "Tengo veinte años.",
+          "Este es mi amigo Pedro.",
+          "¿Qué haces hoy?",
+          "Voy al parque.",
+          "Tengo un perro pequeño.",
+          "¿Tienes hermanos?",
+          "Sí, tengo un hermano.",
+          "El libro está en la mesa.",
+          "¿Qué día es hoy?",
+          "Hoy es lunes.",
+          "Mi color favorito es azul.",
+          "Me gusta la pizza.",
+          "No me gusta el café.",
+          "¿Quieres ir al cine?",
+          "Sí, me gusta ver películas."
+        ]
+      },
+      "A2": {
+        "grammar": [
+          "Present tense",
+          "Question formation",
+          "Possessive adjectives (mi, tu, su)",
+          "Adjective agreement",
+          "Use of 'gustar' (to like)",
+          "Prepositions of place (en, a, de)",
+          "Basic negation (no)",
+          "Numbers (20-100)"
+        ],
+        "examples": [
+          "¿A qué hora te levantas?",
+          "Me levanto a las siete.",
+          "¿Qué te gusta hacer en tu tiempo libre?",
+          "Me gusta leer libros.",
+          "Voy a la escuela todos los días.",
+          "¿Cuál es tu comida favorita?",
+          "Mi comida favorita es la pasta.",
+          "El coche de mi hermano es rojo.",
+          "¿Dónde está el supermercado?",
+          "El supermercado está cerca de mi casa.",
+          "¿Qué día de la semana prefieres?",
+          "Prefiero el viernes.",
+          "Ella es más alta que su hermana.",
+          "¿A qué hora comes?",
+          "Como a las dos de la tarde.",
+          "Los estudiantes están en clase.",
+          "¿Qué te gusta hacer los fines de semana?",
+          "Me gusta ir al cine.",
+          "No me gusta el frío.",
+          "El perro está bajo la mesa.",
+          "¿Qué quieres hacer mañana?"
+        ]
+      },
+      "B1": {
+        "grammar": [
+          "Present tense with regular verbs",
+          "Basic sentence structure",
+          "Prepositions of place (en, a, de)",
+          "Use of 'hay' (there is/are)",
+          "Direct and indirect object pronouns",
+          "Past simple tense (preterite)",
+          "Reflexive verbs (levantarse, lavarse)",
+          "Conjunctions (y, o, pero)"
+        ],
+        "examples": [
+          "Ayer fui al supermercado.",
+          "¿Has visto mi teléfono?",
+          "Estoy estudiando para el examen.",
+          "Quiero aprender a tocar la guitarra.",
+          "¿Cuánto cuesta esta camisa?",
+          "La película fue muy emocionante.",
+          "¿Qué hiciste el fin de semana pasado?",
+          "Fui a la playa con mis amigos.",
+          "Mi casa está lejos del centro.",
+          "Hay muchas personas en la fiesta.",
+          "Ella se levanta temprano todos los días.",
+          "¿Dónde está la estación de tren?",
+          "El café está muy caliente.",
+          "¿Qué prefieres, té o café?",
+          "Mi hermano está en la universidad.",
+          "Nosotros compramos una nueva televisión.",
+          "Estoy cansado porque no dormí bien.",
+          "Ella me dio el libro ayer.",
+          "El perro está jugando en el jardín.",
+          "Voy a viajar a España este verano."
+        ]
+      },
+      "B2": {
+        "grammar": [
+          "Present tense with irregular verbs",
+          "Questions and negations",
+          "Comparatives and superlatives",
+          "Past simple tense (preterite)",
+          "Use of reflexive verbs",
+          "Future tense",
+          "Conditional tense",
+          "Subjunctive mood (basic)"
+        ],
+        "examples": [
+          "Si tuviera más tiempo, estudiaría francés.",
+          "¿Cuándo vienes a la fiesta?",
+          "Espero que vengas a mi cumpleaños.",
+          "Quiero que me ayudes con la tarea.",
+          "El coche más rápido ganó la carrera.",
+          "Me gustaría visitar París algún día.",
+          "¿Has probado la comida española?",
+          "El examen fue más difícil de lo que esperaba.",
+          "Voy a ir al médico mañana.",
+          "¿Qué harías si ganaras la lotería?",
+          "Espero que podamos vernos pronto.",
+          "Si hace sol mañana, iremos a la playa.",
+          "No creo que él vaya a venir.",
+          "¿Puedes ayudarme con este problema?",
+          "Estoy buscando un buen libro para leer.",
+          "Creo que él es más inteligente que su hermano.",
+          "Ella está estudiando para ser doctora.",
+          "¿A qué hora vas a salir?",
+          "Si pudieras viajar a cualquier lugar, ¿a dónde irías?",
+          "Mi sueño es vivir en el extranjero."
+        ]
+      },
+      "C1": {
+        "grammar": [
+          "Present continuous tense",
+          "Direct and indirect objects",
+          "Past continuous tense",
+          "Future tense",
+          "Conditional tense",
+          "Subjunctive mood (intermediate)",
+          "Relative clauses",
+          "Passive voice"
+        ],
+        "examples": [
+          "Si hubiera sabido que venías, habría preparado algo de comer.",
+          "No creo que ella esté diciendo la verdad.",
+          "Es importante que los estudiantes estudien todos los días.",
+          "La película que vimos ayer fue increíble.",
+          "El proyecto fue completado por el equipo en tiempo récord.",
+          "¿Qué piensas hacer este fin de semana?",
+          "Voy a estar trabajando en un nuevo proyecto.",
+          "Si hubiera tenido más tiempo, habría terminado el informe.",
+          "El libro que estoy leyendo es muy interesante.",
+          "Espero que puedas venir a la fiesta.",
+          "Es probable que llueva mañana.",
+          "Si pudiera hablar con él, le pediría una explicación.",
+          "Estoy buscando un apartamento que tenga dos habitaciones.",
+          "No estoy seguro de que él haya entendido lo que dije.",
+          "La casa fue construida por un famoso arquitecto.",
+          "No pienso que vaya a ser fácil.",
+          "Es probable que me mude a otra ciudad el próximo año.",
+          "La comida fue preparada por un chef profesional.",
+          "¿Sabes si ellos han tomado una decisión?",
+          "Si hubiera sabido antes, habría hecho algo diferente."
+        ]
+      },
+      "C2": {
+        "grammar": [
+          "Present perfect tense",
+          "Reflexive verbs",
+          "Subjunctive mood (advanced)",
+          "Complex sentence structures",
+          "Reported speech",
+          "Idiomatic expressions",
+          "Advanced relative clauses",
+          "Imperfect tense",
+          "Pluperfect tense"
+        ],
+        "examples": [
+          "Aunque hubiera tenido más tiempo, no habría podido completar el proyecto.",
+          "Me sorprendió que hubieran terminado tan temprano.",
+          "Es cierto que la situación es complicada, pero no imposible.",
+          "Ella dijo que vendría mañana, pero no estoy seguro.",
+          "Si hubiera sabido lo que sé ahora, habría actuado de manera diferente.",
+          "Es probable que haya ocurrido un error en el sistema.",
+          "Dudo que él pueda hacerlo sin ayuda.",
+          "Si hubiera tenido la oportunidad, habría viajado más.",
+          "El trabajo fue completado mucho antes de lo previsto.",
+          "Es probable que él haya mentido sobre su experiencia.",
+          "Si me hubieras escuchado, no estaríamos en este problema.",
+          "No creo que haya sido una decisión correcta.",
+          "Es increíble lo que ha logrado en tan poco tiempo.",
+          "Aunque me hubiera gustado ir, no pude hacerlo.",
+          "Si hubiera tenido más dinero, habría comprado esa casa.",
+          "Espero que te haya gustado la presentación.",
+          "Me pregunto si habrían aceptado mi propuesta.",
+          "Es importante que sepas la verdad antes de tomar una decisión.",
+          "Dijo que lo haría, pero no estoy seguro de que lo cumpla.",
+          "Si hubiera sabido todo esto antes, habría hecho las cosas de otra manera."
+        ]
+      }
+    },  
     "Introductions": {
        
     },
