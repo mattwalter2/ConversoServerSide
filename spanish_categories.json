@@ -1,7 +1,5 @@
 {
-    
-        
-"General Conversation": {
+    "General Conversation": {
       "A1": {
         "grammar": [
           "Simple present tense",
@@ -208,37 +206,836 @@
           "Si hubiera sabido todo esto antes, habría hecho las cosas de otra manera."
         ]
       }
-    },  
-    "Introductions": {
-       
     },
     "Weather": {
+        "A1": {
+        "grammar": [
+            "Simple present tense",
+            "Basic noun-verb agreement",
+            "Definite and indefinite articles (el, la, un, una)",
+            "Personal pronouns (yo, tú, él, ella)",
+            "Basic question formation",
+            "Basic adjective agreement",
+            "Numbers (1-20)",
+            "Days of the week"
+        ],
+            "examples": [
+                "Hace sol hoy.",
+                "¿Qué tiempo hace?",
+                "Hace frío.",
+                "Está nublado.",
+                "Está lloviendo.",
+                "Hace calor.",
+                "Hoy es lunes y hace viento.",
+                "Mañana va a hacer sol.",
+                "El clima está bueno hoy.",
+                "Hay muchas nubes en el cielo.",
+                "Hace mucho viento.",
+                "Está nevando.",
+                "Ayer hizo calor.",
+                "Mañana va a llover.",
+                "Hace sol en verano.",
+                "Hace frío en invierno.",
+                "¿Está nevando?",
+                "No hace sol hoy.",
+                "El cielo está azul.",
+                "Hay tormenta."
+            ]
+        },
+        "A2": {
+            "grammar": [
+                "Present tense",
+                "Question formation",
+                "Possessive adjectives (mi, tu, su)",
+                "Adjective agreement",
+                "Use of 'gustar' (to like)",
+                "Prepositions of place (en, a, de)",
+                "Basic negation (no)",
+                "Numbers (20-100)"
+            ],
+            "examples": [
+                "El verano pasado hizo mucho calor.",
+                "Me gusta cuando hace sol.",
+                "¿Qué tiempo va a hacer mañana?",
+                "En mi ciudad siempre hace frío en invierno.",
+                "Está lloviendo mucho en abril.",
+                "No me gusta el viento fuerte.",
+                "Hoy hay tormenta, mejor nos quedamos en casa.",
+                "El clima en la costa es muy húmedo.",
+                "El pronóstico dice que mañana va a hacer sol.",
+                "El otoño es mi estación favorita porque no hace mucho calor.",
+                "No me gusta cuando hace demasiado calor.",
+                "Las temperaturas son más bajas en la montaña.",
+                "Ayer nevó mucho.",
+                "No quiero salir si está lloviendo.",
+                "Me gusta cuando hay nubes en el cielo.",
+                "Prefiero los días soleados.",
+                "En mi país, llueve mucho en la primavera.",
+                "Hoy hace mucho viento, deberíamos cerrar las ventanas.",
+                "¿Está haciendo buen tiempo donde vives?",
+                "Las temperaturas bajarán mañana."
+            ]
+        },
+        "B1": {
+            "grammar": [
+                "Present tense with regular verbs",
+                "Basic sentence structure",
+                "Prepositions of place (en, a, de)",
+                "Use of 'hay' (there is/are)",
+                "Direct and indirect object pronouns",
+                "Past simple tense (preterite)",
+                "Reflexive verbs (levantarse, lavarse)",
+                "Conjunctions (y, o, pero)"
+            ],
+            "examples": [
+                "Ayer hizo mucho calor, por eso fuimos a la playa.",
+                "Hoy hace un poco de viento, pero el sol está brillando.",
+                "Me levanté temprano porque quería aprovechar el buen tiempo.",
+                "¿Viste el pronóstico? Dicen que va a llover todo el día.",
+                "Si hace buen tiempo mañana, vamos a hacer una caminata.",
+                "Las temperaturas subieron esta semana, por eso hace tanto calor.",
+                "Me gusta más el clima fresco que el calor del verano.",
+                "En invierno, siempre tengo que usar una chaqueta gruesa.",
+                "El sol salió después de la lluvia, fue hermoso.",
+                "El viento estaba tan fuerte que no pudimos caminar bien.",
+                "Prefiero los días nublados porque no hace tanto calor.",
+                "El otoño es una época del año en la que hace fresco pero no frío.",
+                "Hace tanto calor que no quiero salir de casa.",
+                "Aunque estaba nublado, no llovió.",
+                "El clima cambió rápidamente, primero llovía y luego salió el sol.",
+                "¿Cuándo fue la última vez que nevó aquí?",
+                "Siempre me siento mejor cuando hace sol.",
+                "Si llueve esta tarde, cancelaremos el picnic.",
+                "Me encanta escuchar la lluvia cuando estoy en casa.",
+                "Cuando hace frío, prefiero quedarme en casa con una bebida caliente."
+            ]
+        },
+        "B2": {
+            "grammar": [
+                "Present tense with irregular verbs",
+                "Questions and negations",
+                "Comparatives and superlatives",
+                "Past simple tense (preterite)",
+                "Use of reflexive verbs",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (basic)"
+            ],
+            "examples": [
+                "Si sigue lloviendo, las calles se inundarán.",
+                "Me pregunto si el clima será tan agradable mañana como lo fue hoy.",
+                "El verano pasado fue más cálido que cualquiera que haya vivido.",
+                "El pronóstico indica que podríamos tener una tormenta por la tarde.",
+                "Si tuviera que elegir, preferiría los inviernos fríos a los veranos calurosos.",
+                "Me dijeron que llovería, pero el cielo sigue despejado.",
+                "¿Has visto cómo cambió el clima tan rápido?",
+                "El viento ha sido constante desde la mañana.",
+                "¿Qué harías si te encontraras atrapado en una tormenta?",
+                "Si hace buen tiempo el fin de semana, podemos hacer una excursión.",
+                "El clima está mucho mejor de lo que esperaba para esta época del año.",
+                "Si estuviera nevando ahora, saldría a hacer fotos del paisaje.",
+                "No creo que vaya a llover, pero llevaré un paraguas por si acaso.",
+                "El pronóstico sugiere que podría nevar esta noche.",
+                "Espero que el viento no sea tan fuerte mañana.",
+                "Si pudiera elegir, viviría en un lugar donde siempre hace buen tiempo.",
+                "Me encanta cómo cambia el cielo después de una tormenta.",
+                "El verano aquí es más caluroso que en cualquier otro lugar en el que he estado.",
+                "Si el clima sigue así, cancelaremos el evento.",
+                "No sabía que en esta región lloviera tanto durante el otoño."
+            ]
+        },
+        "C1": {
+            "grammar": [
+                "Present continuous tense",
+                "Direct and indirect objects",
+                "Past continuous tense",
+                "Future tense",
+                "Conditional tense",
+                "Subjunctive mood (intermediate)",
+                "Relative clauses",
+                "Passive voice"
+            ],
+            "examples": [
+                "Si el pronóstico hubiera sido más preciso, habría llevado un paraguas.",
+                "No sé por qué, pero siempre que hace calor me siento más cansado.",
+                "Me gusta salir a caminar cuando el clima es fresco y hay una brisa suave.",
+                "Si hubiera sabido que haría tanto frío, habría traído un abrigo más grueso.",
+                "Es probable que la temperatura baje considerablemente esta noche.",
+                "Si las condiciones no mejoran, podrían cancelar el vuelo.",
+                "No puedo creer que estuviera nevando en pleno abril.",
+                "El clima en esta región suele ser muy impredecible durante el otoño.",
+                "Si el clima mejora, continuaremos con los planes para la fiesta.",
+                "Parece que habrá una tormenta eléctrica más tarde.",
+                "No me habría sorprendido si hubiera nevado ayer, hacía tanto frío.",
+                "El viento ha estado soplando fuerte todo el día, es agotador.",
+                "Si hubiera sabido que la tormenta sería tan intensa, no habría salido de casa.",
+                "Las temperaturas están bajando rápidamente, y el viento no ayuda.",
+                "Espero que no llueva el día de la boda, pero parece que las probabilidades no están a nuestro favor.",
+                "El cielo estaba tan oscuro que parecía que iba a llover en cualquier momento.",
+                "Si las lluvias no cesan, tendremos que posponer el evento.",
+                "Es extraño cómo la temperatura cambia tan drásticamente en solo unas horas.",
+                "La lluvia no paraba, así que decidimos cancelar la excursión.",
+                "Aunque hace frío, es un tipo de frío seco que no se siente tan mal."
+            ]
+        },
+        "C2": {
+            "grammar": [
+                "Present perfect tense",
+                "Reflexive verbs",
+                "Subjunctive mood (advanced)",
+                "Complex sentence structures",
+                "Reported speech",
+                "Idiomatic expressions",
+                "Advanced relative clauses",
+                "Imperfect tense",
+                "Pluperfect tense"
+            ],
+            "examples": [
+                "Aunque hubiera hecho más calor, no creo que hubiéramos disfrutado tanto de la caminata.",
+                "Dijeron que el clima mejoraría, pero ha estado lloviendo todo el día.",
+                "Si hubiera sabido que el viento sería tan fuerte, no habría salido en bicicleta.",
+                "Me parece que el clima en esta región ha cambiado mucho en los últimos años.",
+                "Si no hubiera llovido tanto, las plantas no habrían crecido tanto.",
+                "El pronóstico indicaba lluvia, pero no cayó ni una gota.",
+                "Me encanta la forma en que el sol brilla después de la lluvia, es casi mágico.",
+                "No creo que haya hecho tanto frío en esta región durante los últimos inviernos.",
+                "Si hubiera sabido que haría tanto viento, habría asegurado mejor las ventanas.",
+                "Me sorprende que haya estado nevando todo el día sin parar.",
+                "Aunque el pronóstico había predicho sol, el cielo permaneció nublado toda la tarde.",
+                "Si hubiera sabido lo que sé ahora sobre el clima, habría planeado mejor el evento.",
+                "No puedo creer que siga nevando, incluso después de que el pronóstico dijo que pararía.",
+                "Si no fuera por el viento, el día habría sido perfecto para salir.",
+                "El cielo estaba tan despejado esta mañana, pero ahora parece que va a llover.",
+                "Si no hubiera hecho tanto calor, habríamos pasado más tiempo afuera.",
+                "El viento soplaba tan fuerte que parecía que iba a derribar los árboles.",
+                "Es increíble cómo el clima puede cambiar tan rápido de un momento a otro.",
+                "Si hubiera sabido que la tormenta sería tan intensa, no habría dejado el coche afuera.",
+                "No me importa que haga frío, siempre y cuando no esté lloviendo."
+            ]
+        }
+},
 
+"Sports": {
+    "A1": {
+    "grammar": [
+        "Simple present tense",
+        "Basic noun-verb agreement",
+        "Definite and indefinite articles (el, la, un, una)",
+        "Personal pronouns (yo, tú, él, ella)",
+        "Basic question formation",
+        "Basic adjective agreement",
+        "Numbers (1-20)"
+    ],
+    "examples": [
+        "Me gusta jugar al fútbol.",
+        "¿Juegas al baloncesto?",
+        "El tenis es mi deporte favorito.",
+        "Mi hermano juega al fútbol todos los días.",
+        "El equipo de mi ciudad es muy bueno.",
+        "Vamos a correr al parque.",
+        "Yo juego al béisbol con mis amigos.",
+        "Hoy hay un partido de fútbol.",
+        "¿Te gusta el deporte?",
+        "Ayer vimos un partido de baloncesto.",
+        "El fútbol es muy popular en mi país.",
+        "Me encanta nadar en verano.",
+        "Voy a jugar al tenis mañana.",
+        "Los niños juegan en el campo.",
+        "Mi amigo corre todos los días.",
+        "¿Sabes jugar al voleibol?",
+        "Ella es muy buena en natación.",
+        "Este equipo siempre gana.",
+        "¿Quién es tu jugador favorito?",
+        "Hoy vamos a ver el partido."
+    ]
     },
-    "Clothing": {
-
+    "A2": {
+    "grammar": [
+        "Present tense",
+        "Question formation",
+        "Possessive adjectives (mi, tu, su)",
+        "Adjective agreement",
+        "Use of 'gustar' (to like)",
+        "Prepositions of place (en, a, de)",
+        "Basic negation (no)"
+    ],
+    "examples": [
+        "El partido empieza a las cinco.",
+        "Mi equipo favorito es el Real Madrid.",
+        "¿Qué deporte te gusta practicar?",
+        "Me gusta ver los partidos en la televisión.",
+        "El baloncesto es más divertido que el fútbol.",
+        "El estadio está lleno de gente.",
+        "Mañana vamos a jugar al tenis en el club.",
+        "No me gusta el baloncesto, prefiero el fútbol.",
+        "Ayer corrí cinco kilómetros en el parque.",
+        "El voleibol es muy popular en la playa.",
+        "El equipo ganó el campeonato el año pasado.",
+        "Mi amigo juega al fútbol todos los domingos.",
+        "¿Cuál es tu equipo favorito?",
+        "Siempre veo los partidos de tenis en la tele.",
+        "A mi hermana le gusta jugar al balonmano.",
+        "El entrenador es muy estricto con los jugadores.",
+        "El ciclismo es un deporte que requiere mucha resistencia.",
+        "Mi padre y yo jugamos al golf los fines de semana.",
+        "Los jugadores están practicando en el campo.",
+        "¿Te gustaría aprender a jugar al tenis?"
+    ]
     },
-    "Sports": {
-
+    "B1": {
+    "grammar": [
+        "Present tense with regular verbs",
+        "Basic sentence structure",
+        "Prepositions of place (en, a, de)",
+        "Direct and indirect object pronouns",
+        "Past simple tense (preterite)",
+        "Reflexive verbs (levantarse, entrenarse)"
+    ],
+    "examples": [
+        "Ayer jugué al fútbol con mis amigos en el parque.",
+        "¿Has probado alguna vez el surf?",
+        "El partido fue muy emocionante, ganamos en los últimos minutos.",
+        "La semana pasada entrené muy duro para el maratón.",
+        "Este año quiero aprender a esquiar en las montañas.",
+        "El equipo local ganó la liga el año pasado.",
+        "Después de entrenar, siempre me siento mejor.",
+        "Nos levantamos temprano para correr antes del trabajo.",
+        "El estadio estaba lleno de aficionados.",
+        "¿A qué hora empieza el partido de baloncesto?",
+        "El tenis es un deporte que requiere mucha concentración.",
+        "Ayer fui a ver un partido de fútbol en el estadio.",
+        "Los jugadores se están entrenando para el campeonato.",
+        "¿Has jugado alguna vez al rugby?",
+        "El entrenador nos dio instrucciones antes del partido.",
+        "El ciclismo es un deporte que exige mucha resistencia física.",
+        "Mi equipo perdió el partido por solo un punto.",
+        "El torneo de tenis se celebra cada año en julio.",
+        "¿Prefieres los deportes individuales o en equipo?",
+        "Ayer corrí diez kilómetros en preparación para la carrera."
+    ]
     },
-    "Music": {
-
+    "B2": {
+    "grammar": [
+        "Present tense with irregular verbs",
+        "Questions and negations",
+        "Comparatives and superlatives",
+        "Past simple tense (preterite)",
+        "Use of reflexive verbs",
+        "Future tense",
+        "Conditional tense"
+    ],
+    "examples": [
+        "Si tuviera más tiempo, jugaría al fútbol todos los días.",
+        "El equipo más fuerte ganó el campeonato.",
+        "Espero que mañana no llueva para poder entrenar.",
+        "¿Has visto alguna vez un partido de béisbol en directo?",
+        "Si entrenas regularmente, mejorarás tu rendimiento.",
+        "El partido de tenis fue más largo de lo que esperaba.",
+        "No creo que el equipo pueda ganar sin su mejor jugador.",
+        "El baloncesto es más rápido que el fútbol, pero ambos son emocionantes.",
+        "El torneo de natación se celebrará el próximo mes.",
+        "Si tuviera que elegir, preferiría el fútbol al baloncesto.",
+        "El año pasado gané mi primera medalla en la competencia de atletismo.",
+        "Espero que podamos organizar un partido de voleibol este fin de semana.",
+        "El entrenador dijo que si practicamos más, seremos mejores jugadores.",
+        "Si pudieras aprender cualquier deporte, ¿cuál elegirías?",
+        "¿Cuál es el jugador más famoso de tu equipo favorito?",
+        "El surf es un deporte que requiere equilibrio y concentración.",
+        "La natación es el deporte más completo para ejercitar todo el cuerpo.",
+        "¿Te gustaría participar en un maratón algún día?",
+        "El ciclismo de montaña es más peligroso que el ciclismo en carretera.",
+        "Si pudiera, practicaría deportes extremos todos los días."
+    ]
     },
-    "Animals": {
-
+    "C1": {
+    "grammar": [
+        "Present continuous tense",
+        "Direct and indirect objects",
+        "Past continuous tense",
+        "Future tense",
+        "Conditional tense",
+        "Subjunctive mood (intermediate)",
+        "Relative clauses"
+    ],
+    "examples": [
+        "Si hubiera sabido que el partido empezaba tan temprano, habría llegado antes.",
+        "Estoy entrenando para el maratón que se celebrará en dos meses.",
+        "El equipo que gane el próximo partido será el campeón de la liga.",
+        "A pesar de que estaba lloviendo, seguimos jugando al fútbol.",
+        "No creo que vayamos a ganar el campeonato, pero vamos a intentarlo.",
+        "Me pregunto si el equipo podrá superar a sus rivales en el próximo partido.",
+        "Si hubiera practicado más, podría haber ganado el torneo de tenis.",
+        "Aunque está lesionado, quiere seguir jugando en el próximo partido.",
+        "Estoy buscando un equipo de baloncesto en el que pueda inscribirme.",
+        "Si el entrenador nos hubiera dado más tiempo para entrenar, habríamos mejorado más.",
+        "No me sorprendería si el equipo gana la liga este año.",
+        "El jugador que más me inspira es uno que siempre da lo mejor de sí mismo.",
+        "Me encantaría participar en una competencia internacional de ciclismo.",
+        "Aunque es difícil, quiero mejorar mis habilidades en el surf.",
+        "No estoy seguro de que podamos ganar sin nuestro capitán.",
+        "El próximo partido será decisivo para el campeonato.",
+        "Si el tiempo lo permite, jugaremos el partido al aire libre.",
+        "El deporte que más me interesa practicar es la escalada.",
+        "El jugador que marcó el gol fue increíblemente rápido.",
+        "Si hubiera sabido lo importante que era el partido, habría entrenado más."
+    ]
     },
-
-    "Travel": {
-       
-    },
-    "Food": {
-        
+    "C2": {
+    "grammar": [
+        "Present perfect tense",
+        "Reflexive verbs",
+        "Subjunctive mood (advanced)",
+        "Complex sentence structures",
+        "Reported speech",
+        "Idiomatic expressions",
+        "Advanced relative clauses",
+        "Imperfect tense",
+        "Pluperfect tense"
+    ],
+    "examples": [
+        "Si no hubiera sido por la lluvia, habríamos jugado el mejor partido de la temporada.",
+        "Me dijeron que el equipo rival había estado entrenando mucho más duro que el nuestro.",
+        "No creo que haya habido un partido más emocionante en toda la historia del torneo.",
+        "Si hubiera sabido que el jugador estaba lesionado, no habría contado con él para el partido.",
+        "El entrenador mencionó que el equipo ha estado mejorando su rendimiento en las últimas semanas.",
+        "No habría ganado el campeonato si no hubiera entrenado todos los días durante meses.",
+        "Si hubiera tenido más tiempo para entrenar, habría corrido más rápido en la carrera.",
+        "El partido que vi ayer fue el más emocionante que haya presenciado.",
+        "Si hubiera sabido que la competencia iba a ser tan dura, habría empezado a entrenar antes.",
+        "El comentarista dijo que este podría haber sido el mejor gol del año.",
+        "Si no fuera por su velocidad, el jugador no habría podido marcar el gol.",
+        "Me dijeron que el torneo fue cancelado debido al mal tiempo.",
+        "Si el equipo hubiera entrenado más duro, habrían ganado el campeonato.",
+        "El árbitro mencionó que el partido fue uno de los más difíciles de arbitrar en su carrera.",
+        "Aunque el jugador estaba lesionado, jugó de manera excepcional durante todo el partido.",
+        "Si hubiera sabido lo complicado que sería el partido, habría cambiado la estrategia.",
+        "No puedo creer que el equipo haya perdido en el último minuto.",
+        "Si no hubiéramos perdido el primer partido, ahora estaríamos en la final.",
+        "El entrenador dijo que el equipo ha estado jugando mejor en los últimos partidos.",
+        "El jugador que marcó el gol de la victoria fue el héroe del partido."
+    ]
     }
+},
 
-   
+
+  
+
+  
+"Clothing": {
+
+},
+
+"Music": {
+
+},
+"Animals": {
+
+},
+
+"Travel": {
+    "A1": {
+      "grammar": [
+        "Simple present tense",
+        "Basic noun-verb agreement",
+        "Definite and indefinite articles (el, la, un, una)",
+        "Personal pronouns (yo, tú, él, ella)",
+        "Basic question formation",
+        "Basic adjective agreement",
+        "Numbers (1-20)"
+      ],
+      "examples": [
+        "Voy a la playa.",
+        "¿Dónde está el hotel?",
+        "Me gusta viajar.",
+        "Voy en avión a España.",
+        "¿Cuándo sale el tren?",
+        "El autobús llega a las tres.",
+        "Tengo una reserva en el hotel.",
+        "¿Dónde está la estación de tren?",
+        "Quiero comprar un boleto de avión.",
+        "El avión es muy rápido.",
+        "Voy a visitar un museo.",
+        "¿Tienes un mapa de la ciudad?",
+        "Voy a México de vacaciones.",
+        "¿Cuánto cuesta el boleto?",
+        "Este es mi pasaporte.",
+        "Necesito cambiar dinero.",
+        "¿Cómo llego al aeropuerto?",
+        "El taxi está aquí.",
+        "Voy a viajar el próximo mes.",
+        "¿Cuál es tu destino favorito?"
+      ]
+    },
+    "A2": {
+      "grammar": [
+        "Present tense",
+        "Question formation",
+        "Possessive adjectives (mi, tu, su)",
+        "Adjective agreement",
+        "Use of 'gustar' (to like)",
+        "Prepositions of place (en, a, de)",
+        "Basic negation (no)"
+      ],
+      "examples": [
+        "Me gustaría viajar a Europa el próximo verano.",
+        "¿Cuándo sale el próximo tren a Barcelona?",
+        "Voy de vacaciones a la playa cada año.",
+        "La semana pasada fui a visitar a mi familia en otra ciudad.",
+        "¿Puedes recomendarme un buen hotel en Madrid?",
+        "El vuelo se retrasó dos horas.",
+        "Quiero hacer una reserva para una habitación doble.",
+        "El viaje en autobús duró tres horas.",
+        "Mi destino favorito es París porque es muy bonito.",
+        "El hotel tiene una piscina grande.",
+        "Voy a tomar un taxi al aeropuerto mañana.",
+        "Me encanta viajar en tren porque es muy cómodo.",
+        "¿Cuánto cuesta un boleto de ida y vuelta?",
+        "El avión despega a las ocho de la mañana.",
+        "Siempre llevo una cámara cuando viajo.",
+        "Vamos a hacer un tour por la ciudad mañana.",
+        "¿Puedes decirme dónde está la estación de autobuses?",
+        "¿Qué tipo de transporte prefieres para viajar?",
+        "El hotel está cerca del centro de la ciudad.",
+        "¿A qué hora sale el autobús?"
+      ]
+    },
+    "B1": {
+      "grammar": [
+        "Present tense with regular verbs",
+        "Basic sentence structure",
+        "Prepositions of place (en, a, de)",
+        "Direct and indirect object pronouns",
+        "Past simple tense (preterite)",
+        "Reflexive verbs (levantarse, prepararse)"
+      ],
+      "examples": [
+        "Ayer viajé en tren a una ciudad que nunca había visitado.",
+        "El año pasado fui de vacaciones a Italia, fue increíble.",
+        "¿Has reservado el hotel para el próximo mes?",
+        "El vuelo duró más de lo esperado debido a las malas condiciones climáticas.",
+        "Siempre me preparo con antelación para los viajes largos.",
+        "¿Has visitado alguna vez un lugar exótico?",
+        "Antes de viajar, me gusta investigar sobre la cultura local.",
+        "El hotel en el que nos quedamos tenía una vista espectacular del mar.",
+        "El autobús nos dejó justo en la entrada del parque nacional.",
+        "¿Cuándo fue la última vez que hiciste un viaje largo?",
+        "El verano pasado recorrí varias ciudades de España.",
+        "Me encanta descubrir nuevos lugares cuando viajo.",
+        "Siempre llevo una mochila con lo esencial cuando hago excursiones.",
+        "¿Cuál fue el mejor viaje que has hecho?",
+        "Durante mis vacaciones, visité muchos museos interesantes.",
+        "La estación de tren estaba llena de turistas.",
+        "¿Sabes a qué hora llega el tren a Madrid?",
+        "El vuelo fue largo, pero el destino valió la pena.",
+        "El conductor del taxi fue muy amable y nos dio recomendaciones.",
+        "¿Cómo prefieres viajar, en avión o en tren?"
+      ]
+    },
+    "B2": {
+      "grammar": [
+        "Present tense with irregular verbs",
+        "Questions and negations",
+        "Comparatives and superlatives",
+        "Past simple tense (preterite)",
+        "Use of reflexive verbs",
+        "Future tense",
+        "Conditional tense"
+      ],
+      "examples": [
+        "Si tuviera más tiempo, me gustaría viajar por todo el mundo.",
+        "El próximo año planeo hacer un viaje en solitario por Asia.",
+        "¿Qué país te gustaría visitar si tuvieras la oportunidad?",
+        "Si viajo a Sudamérica, quiero explorar la selva amazónica.",
+        "El viaje en avión fue más cómodo de lo que esperaba.",
+        "Si pudieras elegir cualquier destino, ¿a dónde irías?",
+        "Me pregunto cómo será viajar a un país con una cultura tan diferente.",
+        "El viaje a las montañas fue más desafiante que cualquier otro que haya hecho.",
+        "¿Alguna vez has pensado en hacer un viaje largo en coche?",
+        "Si tuviera más dinero, viajaría más a menudo.",
+        "Este hotel es más caro que el que nos recomendaron, pero tiene mejores vistas.",
+        "En mi próximo viaje, me gustaría probar nuevas experiencias de aventura.",
+        "Si las condiciones climáticas no mejoran, el vuelo podría cancelarse.",
+        "Me gustaría ir a un lugar donde no haya muchos turistas.",
+        "Siempre llevo un diario de viaje para anotar mis experiencias.",
+        "¿Te gustaría aprender un nuevo idioma antes de viajar a otro país?",
+        "El tren es una de las formas más relajantes de viajar largas distancias.",
+        "Si pudiera, pasaría todo el año viajando por diferentes continentes.",
+        "El turismo sostenible es una de las mejores formas de viajar hoy en día.",
+        "Espero que en mi próximo viaje pueda ver la aurora boreal."
+      ]
+    },
+    "C1": {
+      "grammar": [
+        "Present continuous tense",
+        "Direct and indirect objects",
+        "Past continuous tense",
+        "Future tense",
+        "Conditional tense",
+        "Subjunctive mood (intermediate)",
+        "Relative clauses"
+      ],
+      "examples": [
+        "Si hubiera sabido que el vuelo se iba a retrasar tanto, habría reservado en otro horario.",
+        "Estoy planeando un viaje a Japón para conocer mejor su cultura.",
+        "El próximo verano estaré viajando por Europa durante tres meses.",
+        "El vuelo se canceló debido a una tormenta, así que tuve que quedarme una noche más.",
+        "Si hubiera investigado más, habría encontrado un hotel más barato.",
+        "Me gustaría conocer la historia detrás de cada lugar que visito.",
+        "El tren estaba tan lleno que tuvimos que esperar al siguiente.",
+        "Si el clima lo permite, mañana haremos una excursión a la montaña.",
+        "No creo que haya un lugar más bonito que las playas del Caribe.",
+        "Estoy buscando recomendaciones de lugares para visitar durante mi viaje a Italia.",
+        "Si hubiera más tiempo, visitaríamos también los pueblos cercanos.",
+        "Aunque el viaje fue largo, las vistas desde el avión valieron la pena.",
+        "El hotel en el que nos quedamos fue construido en el siglo XVIII.",
+        "Me encantaría participar en una ruta gastronómica durante mis vacaciones.",
+        "Si pudiera, viajaría cada vez que tuviera la oportunidad.",
+        "No puedo esperar a conocer todas las maravillas que este país tiene para ofrecer.",
+        "El guía nos explicó la historia del lugar con mucho detalle.",
+        "Si el vuelo hubiera salido a tiempo, habríamos llegado mucho más temprano.",
+        "Estoy planeando hacer un viaje en bicicleta por los Alpes.",
+        "Si no hubiera sido por la lluvia, habríamos pasado todo el día explorando la ciudad."
+      ]
+    },
+    "C2": {
+      "grammar": [
+        "Present perfect tense",
+        "Reflexive verbs",
+        "Subjunctive mood (advanced)",
+        "Complex sentence structures",
+        "Reported speech",
+        "Idiomatic expressions",
+        "Advanced relative clauses",
+        "Imperfect tense",
+        "Pluperfect tense"
+      ],
+      "examples": [
+        "Si no hubiera sido por la huelga, el tren habría llegado a tiempo.",
+        "Me comentaron que el lugar que visité el año pasado ya no está tan lleno de turistas.",
+        "Si hubiera sabido lo caro que sería viajar en temporada alta, habría cambiado mis planes.",
+        "El viaje fue mucho más enriquecedor de lo que había imaginado.",
+        "Si no hubiera llovido durante toda la semana, habríamos explorado más la ciudad.",
+        "El guía nos contó que el castillo fue reconstruido tras un incendio hace siglos.",
+        "Me sorprende que nunca antes haya visitado un lugar tan impresionante como este.",
+        "Si no fuera por el costo del vuelo, habría viajado a Australia hace tiempo.",
+        "Me dijeron que las rutas de senderismo en esa zona son espectaculares.",
+        "Si hubiera planeado mejor, habría visitado más lugares durante mis vacaciones.",
+        "Es cierto que viajar por el mundo te abre la mente y te cambia la perspectiva.",
+        "Si no hubiera habido tantas restricciones, habríamos hecho más excursiones.",
+        "El agente de viajes me comentó que este destino es muy popular entre los mochileros.",
+        "Me dijeron que los viajes en tren por Europa son una experiencia inolvidable.",
+        "Si hubiera sabido lo emocionante que es viajar en globo, lo habría hecho antes.",
+        "El hecho de que el vuelo se haya retrasado no arruinó mi experiencia.",
+        "Me contaron que el hotel en el que me quedé fue uno de los primeros en la ciudad.",
+        "Si no hubiéramos perdido el avión, habríamos llegado a tiempo para la ceremonia.",
+        "Si no fuera tan complicado obtener una visa, me habría quedado más tiempo.",
+        "No me cabe duda de que este ha sido el mejor viaje de mi vida."
+      ]
+    }
+  },
+  "Food": {
+    "A1": {
+      "grammar": [
+        "Simple present tense",
+        "Basic noun-verb agreement",
+        "Definite and indefinite articles (el, la, un, una)",
+        "Personal pronouns (yo, tú, él, ella)",
+        "Basic question formation",
+        "Basic adjective agreement",
+        "Numbers (1-20)"
+      ],
+      "examples": [
+        "Me gusta la pizza.",
+        "¿Tienes agua?",
+        "Quiero una manzana.",
+        "El pan es delicioso.",
+        "Tengo hambre.",
+        "Voy a comer una ensalada.",
+        "¿Dónde está el restaurante?",
+        "El helado es mi postre favorito.",
+        "Necesito un cuchillo para cortar el pan.",
+        "Quiero una taza de café.",
+        "El arroz está caliente.",
+        "¿Qué te gusta comer?",
+        "El pescado es muy fresco.",
+        "¿Puedo tener más agua, por favor?",
+        "Me encanta el chocolate.",
+        "La sopa está muy buena.",
+        "Tengo sed.",
+        "¿Quieres una naranja?",
+        "El desayuno está listo.",
+        "Comemos juntos todos los días."
+      ]
+    },
+    "A2": {
+      "grammar": [
+        "Present tense",
+        "Question formation",
+        "Possessive adjectives (mi, tu, su)",
+        "Adjective agreement",
+        "Use of 'gustar' (to like)",
+        "Prepositions of place (en, a, de)",
+        "Basic negation (no)"
+      ],
+      "examples": [
+        "Me gusta la comida italiana, especialmente la pasta.",
+        "¿Qué te gustaría comer para la cena?",
+        "El restaurante donde comimos ayer estaba muy bueno.",
+        "Prefiero el té en lugar del café.",
+        "¿Qué tipo de carne prefieres, pollo o res?",
+        "El pan está fresco porque lo compré esta mañana.",
+        "A mi hermano le gusta cocinar postres.",
+        "Voy a hacer una ensalada con tomate y lechuga.",
+        "No me gusta la comida picante.",
+        "El menú tiene muchas opciones vegetarianas.",
+        "¿Te gustaría más arroz o más papas?",
+        "El pastel de chocolate es mi favorito.",
+        "Siempre tomo café con leche en el desayuno.",
+        "Ayer cenamos en un restaurante mexicano.",
+        "Los tomates están en la nevera.",
+        "¿Puedes pasarme la sal, por favor?",
+        "Mi madre cocina muy bien.",
+        "Me gustaría una botella de agua, por favor.",
+        "El pescado se cocina en el horno.",
+        "Mi plato favorito es la paella."
+      ]
+    },
+    "B1": {
+      "grammar": [
+        "Present tense with regular verbs",
+        "Basic sentence structure",
+        "Prepositions of place (en, a, de)",
+        "Direct and indirect object pronouns",
+        "Past simple tense (preterite)",
+        "Reflexive verbs (prepararse, servirse)"
+      ],
+      "examples": [
+        "Ayer preparé una cena especial para mi familia.",
+        "Siempre me sirvo una taza de café por la mañana.",
+        "El mesero nos recomendó probar el plato del día.",
+        "¿Has probado alguna vez la comida japonesa?",
+        "Me encanta cocinar, especialmente platos con muchos ingredientes frescos.",
+        "La última vez que fuimos a ese restaurante, el servicio fue excelente.",
+        "¿Qué prefieres para el almuerzo, una ensalada o un sándwich?",
+        "Ayer cenamos en casa porque no queríamos salir.",
+        "El camarero nos trajo el menú y nos explicó los platos.",
+        "Me gusta probar nuevas recetas cada semana.",
+        "Anoche preparé una pasta con salsa de tomate casera.",
+        "El desayuno es la comida más importante del día.",
+        "¿Te gustan las frutas tropicales como el mango y la piña?",
+        "Cuando voy al supermercado, siempre compro verduras frescas.",
+        "La cena de anoche fue deliciosa, hicimos pizza casera.",
+        "No me gusta mucho la carne, prefiero las verduras.",
+        "El chef de este restaurante es muy famoso por sus postres.",
+        "Cuando era niño, no me gustaba el brócoli, pero ahora lo disfruto.",
+        "Siempre cocino con aceite de oliva porque es más saludable.",
+        "El plato principal fue increíble, especialmente la salsa."
+      ]
+    },
+    "B2": {
+      "grammar": [
+        "Present tense with irregular verbs",
+        "Questions and negations",
+        "Comparatives and superlatives",
+        "Past simple tense (preterite)",
+        "Use of reflexive verbs",
+        "Future tense",
+        "Conditional tense"
+      ],
+      "examples": [
+        "Si tuviera más tiempo, aprendería a cocinar platos internacionales.",
+        "El pastel de manzana que hiciste es el mejor que he probado.",
+        "Me pregunto si podrías enseñarme a hacer esa receta.",
+        "La próxima semana voy a hacer una cena especial para mis amigos.",
+        "Si tuvieras que elegir un plato para comer todos los días, ¿cuál sería?",
+        "El restaurante al que fuimos ayer tenía mejores platos que este.",
+        "La comida en este país es más picante de lo que esperaba.",
+        "Si viajo a Italia, me encantaría aprender a hacer pizza auténtica.",
+        "El chef nos explicó cómo preparó el plato usando ingredientes frescos.",
+        "La comida en este restaurante es mucho más saludable que en otros lugares.",
+        "Si pudieras probar cualquier comida del mundo, ¿qué elegirías?",
+        "No creo que pueda terminar este plato, es muy grande.",
+        "El vino que nos sirvieron fue excelente, me gustaría comprar una botella.",
+        "Este plato es tan bueno que lo podría comer todos los días.",
+        "El servicio en este restaurante es mejor que en el que fuimos la semana pasada.",
+        "Si pudiera, cocinaría más a menudo en casa.",
+        "¿Te gustaría aprender a cocinar comida tailandesa?",
+        "El próximo mes voy a asistir a un curso de cocina.",
+        "La comida en este país es muy variada, desde carnes hasta mariscos.",
+        "Si supiera hacer sushi, lo prepararía para la fiesta de esta noche."
+      ]
+    },
+    "C1": {
+      "grammar": [
+        "Present continuous tense",
+        "Direct and indirect objects",
+        "Past continuous tense",
+        "Future tense",
+        "Conditional tense",
+        "Subjunctive mood (intermediate)",
+        "Relative clauses"
+      ],
+      "examples": [
+        "Si hubiera sabido que tenías alergia al gluten, habría preparado algo diferente.",
+        "Estoy cocinando una cena especial para celebrar nuestro aniversario.",
+        "El chef dijo que estaría preparando el menú especial solo esta semana.",
+        "Aunque estaba llena, no pude resistir la tentación de probar el postre.",
+        "El próximo año estaré tomando clases de cocina internacional.",
+        "Si tuviera que elegir un plato que me representa, sería la paella.",
+        "El restaurante en el que cenamos anoche es famoso por su comida tradicional.",
+        "Espero que este plato te guste tanto como a mí.",
+        "Me encanta preparar postres, especialmente tartas de frutas.",
+        "Si hubiera más ingredientes frescos disponibles, cocinaría más en casa.",
+        "Si me hubieras dicho que no comías carne, habría preparado algo diferente.",
+        "No creo que haya un postre más delicioso que el tiramisú.",
+        "El camarero nos recomendó un vino que combinaba perfectamente con el plato.",
+        "La cena que preparé ayer fue la mejor que he hecho en mucho tiempo.",
+        "Aunque no soy un gran fan de las verduras, esta receta es increíble.",
+        "Estoy buscando una receta que sea fácil de hacer pero que también impresione a los invitados.",
+        "El chef nos explicó que utiliza ingredientes locales en todos sus platos.",
+        "Si no fuera tan caro, iría a ese restaurante más a menudo.",
+        "El hecho de que utilicen ingredientes frescos hace que la comida sea aún mejor.",
+        "Si hubiera sabido lo fácil que es hacer este plato, lo habría intentado antes."
+      ]
+    },
+    "C2": {
+      "grammar": [
+        "Present perfect tense",
+        "Reflexive verbs",
+        "Subjunctive mood (advanced)",
+        "Complex sentence structures",
+        "Reported speech",
+        "Idiomatic expressions",
+        "Advanced relative clauses",
+        "Imperfect tense",
+        "Pluperfect tense"
+      ],
+      "examples": [
+        "Si no hubiera sido por la receta que me diste, no habría podido preparar este plato tan delicioso.",
+        "Me dijeron que el chef de este restaurante había trabajado en Francia antes de abrir su propio local.",
+        "El plato que probamos anoche fue mucho más complejo de lo que había imaginado.",
+        "Si hubiera sabido que el vino complementaba tan bien el plato, lo habría pedido antes.",
+        "Me contaron que el restaurante utiliza ingredientes que ellos mismos cultivan en su jardín.",
+        "Es increíble cómo un solo ingrediente puede cambiar por completo el sabor de un plato.",
+        "Si hubiera sabido lo fácil que es hacer esta receta, la habría preparado hace mucho tiempo.",
+        "El chef mencionó que su plato estrella ha sido perfeccionado durante años.",
+        "Si no fuera por la textura de la comida, habría disfrutado más del plato.",
+        "Me dijeron que este restaurante es conocido por su cocina innovadora.",
+        "El hecho de que utilicen ingredientes orgánicos mejora mucho la calidad de la comida.",
+        "Si no me hubieras recomendado este lugar, nunca habría probado una comida tan exquisita.",
+        "El pastel que comimos ayer era el mejor que he probado en toda mi vida.",
+        "Me contaron que el restaurante donde cenamos anoche había ganado varios premios.",
+        "Si no hubiera tenido tanta hambre, no habría terminado todo el plato.",
+        "Me dijeron que el chef había trabajado con algunos de los mejores cocineros del mundo.",
+        "Si hubiera sabido que esta receta era tan complicada, no me habría atrevido a intentarla.",
+        "El hecho de que el chef prepare cada plato al momento lo hace aún más impresionante.",
+        "No puedo creer que nunca antes hubiera probado una comida tan deliciosa.",
+        "Me contaron que la comida que probamos anoche es típica de la región y se prepara con ingredientes locales."
+      ]
+    }
+  }
+    
 }
 
-
-
-
-
+   
+  
