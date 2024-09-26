@@ -1,5 +1,5 @@
 {
-    {
+    
   "General Conversation": {
     "A1": {
       "grammar": [
@@ -198,8 +198,8 @@
         "如果我早知道这些，我会做不同的事情。"
       ]
     }
-  }
-},
+  },
+
     "Introductions": {},
     "Weather": {},
     "Clothing": {},
