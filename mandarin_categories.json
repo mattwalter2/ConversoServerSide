@@ -1,112 +1,205 @@
 {
-    "General Conversation": {
-        "A1": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt"
-            ],
-            "grammar": [
-                "Simple present tense",
-                "Basic noun-verb agreement",
-                "Definite and indefinite articles",
-                "Personal pronouns",
-                "Basic question formation",
-                "Basic adjective agreement",
-                "Numbers (1-20)",
-                "Days of the week"
-            ]
-        },
-        "A2": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt",
-                "mandarin_A2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense",
-                "Question formation",
-                "Possessive adjectives",
-                "Adjective agreement",
-                "Use of '喜欢' (to like)",
-                "Prepositions of place",
-                "Basic negation",
-                "Numbers (20-100)"
-            ]
-        },
-        "B1": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt",
-                "mandarin_A2_vocab.txt",
-                "mandarin_B1_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with regular verbs",
-                "Basic sentence structure",
-                "Prepositions of place",
-                "Use of '有' (there is/are)",
-                "Direct and indirect object pronouns",
-                "Past simple tense",
-                "Reflexive verbs",
-                "Conjunctions"
-            ]
-        },
-        "B2": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt",
-                "mandarin_A2_vocab.txt",
-                "mandarin_B1_vocab.txt",
-                "mandarin_B2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with irregular verbs",
-                "Questions and negations",
-                "Comparatives and superlatives",
-                "Past simple tense",
-                "Use of reflexive verbs",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (basic)"
-            ]
-        },
-        "C1": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt",
-                "mandarin_A2_vocab.txt",
-                "mandarin_B1_vocab.txt",
-                "mandarin_B2_vocab.txt",
-                "mandarin_C1_vocab.txt"
-            ],
-            "grammar": [
-                "Present continuous tense",
-                "Direct and indirect objects",
-                "Past continuous tense",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (intermediate)",
-                "Relative clauses",
-                "Passive voice"
-            ]
-        },
-        "C2": {
-            "vocabulary": [
-                "mandarin_A1_vocab.txt",
-                "mandarin_A2_vocab.txt",
-                "mandarin_B1_vocab.txt",
-                "mandarin_B2_vocab.txt",
-                "mandarin_C1_vocab.txt",
-                "mandarin_C2_vocab.txt"
-            ],
-            "grammar": [
-                "Present perfect tense",
-                "Reflexive verbs",
-                "Subjunctive mood (advanced)",
-                "Complex sentence structures",
-                "Reported speech",
-                "Idiomatic expressions",
-                "Advanced relative clauses",
-                "Imperfect tense",
-                "Pluperfect tense"
-            ]
-        }
+    {
+  "General Conversation": {
+    "A1": {
+      "grammar": [
+        "Basic sentence structure (Subject-Verb-Object)",
+        "Personal pronouns (我, 你, 他/她)",
+        "Simple present tense",
+        "Numbers (1-20)",
+        "Basic question formation with 吗",
+        "Time expressions (今天, 明天, 现在)",
+        "Basic noun-verb agreement"
+      ],
+      "examples": [
+        "你好，你叫什么名字？",
+        "我叫王伟。",
+        "你住在哪里？",
+        "我住在北京。",
+        "你几岁？",
+        "我二十岁。",
+        "他是我的朋友。",
+        "今天你做什么？",
+        "我去公园。",
+        "我有一只小狗。",
+        "你有兄弟姐妹吗？",
+        "有，我有一个妹妹。",
+        "书在桌子上。",
+        "今天星期几？",
+        "今天星期一。",
+        "我最喜欢的颜色是蓝色。",
+        "我喜欢吃披萨。",
+        "我不喜欢喝咖啡。",
+        "你想去看电影吗？",
+        "是的，我喜欢看电影。"
+      ]
     },
+    "A2": {
+      "grammar": [
+        "Simple present tense",
+        "Question formation with 吗/呢",
+        "Basic conjunctions (和, 但是)",
+        "Basic negation with 不",
+        "Possessive pronouns (我的, 你的, 他的)",
+        "Numbers (20-100)",
+        "Time expressions (早上, 下午)"
+      ],
+      "examples": [
+        "你早上几点起床？",
+        "我早上七点起床。",
+        "你喜欢做什么？",
+        "我喜欢看书。",
+        "我每天都去学校。",
+        "你最喜欢的食物是什么？",
+        "我最喜欢的食物是面条。",
+        "我哥哥的车是红色的。",
+        "超市在哪里？",
+        "超市在我家附近。",
+        "你喜欢哪个星期？",
+        "我喜欢星期五。",
+        "她比她姐姐高。",
+        "你中午吃什么？",
+        "我中午吃面包。",
+        "学生们在教室里。",
+        "周末你喜欢做什么？",
+        "我喜欢去看电影。",
+        "我不喜欢冷天。",
+        "狗在桌子下面。",
+        "你明天想做什么？"
+      ]
+    },
+    "B1": {
+      "grammar": [
+        "Present continuous tense (在 + Verb)",
+        "Basic prepositions (在, 上, 下)",
+        "Past tense with 了",
+        "Future tense with 要",
+        "Comparison with 比",
+        "Reflexive verbs",
+        "Use of 有 (there is/are)"
+      ],
+      "examples": [
+        "昨天我去了超市。",
+        "你看到我的手机了吗？",
+        "我正在学习。",
+        "我想学弹吉他。",
+        "这件衬衫多少钱？",
+        "这部电影很有趣。",
+        "你上个周末做了什么？",
+        "我和朋友去海边玩了。",
+        "我的家离市中心很远。",
+        "派对上有很多人。",
+        "她每天早上很早起床。",
+        "火车站在哪里？",
+        "咖啡太烫了。",
+        "你喜欢喝茶还是咖啡？",
+        "我哥哥在大学读书。",
+        "我们买了一台新电视。",
+        "我很累，因为昨晚没睡好。",
+        "她昨天给了我一本书。",
+        "狗在花园里玩。",
+        "我打算夏天去西班牙旅游。"
+      ]
+    },
+    "B2": {
+      "grammar": [
+        "Future tense with 会",
+        "Questions and negations",
+        "Comparatives and superlatives",
+        "Conditional sentences (如果... 就...)",
+        "Reflexive verbs",
+        "Advanced conjunctions (因为, 所以)",
+        "Subjunctive mood (如果)"
+      ],
+      "examples": [
+        "如果我有时间，我会学习法语。",
+        "你什么时候来派对？",
+        "我希望你来我的生日会。",
+        "我想让你帮我做作业。",
+        "最快的车赢得了比赛。",
+        "我想有一天去巴黎。",
+        "你吃过中国菜吗？",
+        "这次考试比我想象的要难。",
+        "我明天要去看医生。",
+        "如果你中了彩票，你会做什么？",
+        "希望我们能很快见面。",
+        "如果明天天气好，我们去海边吧。",
+        "我不认为他会来。",
+        "你能帮我解决这个问题吗？",
+        "我在找一本好书。",
+        "我觉得他比他弟弟聪明。",
+        "她在学习成为医生。",
+        "你什么时候出门？",
+        "如果你能去任何地方，你会去哪里？",
+        "我的梦想是住在国外。"
+      ]
+    },
+    "C1": {
+      "grammar": [
+        "Present continuous tense (正在 + Verb)",
+        "Conditional tense",
+        "Complex sentence structures",
+        "Advanced conjunctions",
+        "Relative clauses",
+        "Passive voice"
+      ],
+      "examples": [
+        "如果我早知道你来，我会准备一些吃的。",
+        "我不觉得她在说实话。",
+        "每天学习很重要。",
+        "昨天我们看的电影很棒。",
+        "项目被团队在创纪录的时间内完成。",
+        "这个周末你打算做什么？",
+        "我会在一个新项目上工作。",
+        "如果我有更多时间，我就完成报告了。",
+        "我正在读的书非常有趣。",
+        "希望你能来参加派对。",
+        "明天可能会下雨。",
+        "如果我能和他说话，我会问他原因。",
+        "我在找一个有两间卧室的公寓。",
+        "我不确定他是否明白了我说的话。",
+        "这座房子是由著名建筑师设计的。",
+        "我觉得不会很容易。",
+        "明年我可能会搬到另一个城市。",
+        "这顿饭是由专业厨师准备的。",
+        "你知道他们有没有做出决定吗？",
+        "如果我早知道，我会做出不同的选择。"
+      ]
+    },
+    "C2": {
+      "grammar": [
+        "Present perfect tense",
+        "Advanced subjunctive mood",
+        "Complex sentence structures",
+        "Reported speech",
+        "Idiomatic expressions",
+        "Pluperfect tense"
+      ],
+      "examples": [
+        "虽然我有更多时间，我可能还是无法完成项目。",
+        "他们说他们很早就完成了，这让我很惊讶。",
+        "情况虽然复杂，但并非不可能解决。",
+        "她说她明天会来，但我不确定。",
+        "如果我早知道我现在知道的，我会做不同的决定。",
+        "系统可能出错了。",
+        "我怀疑他是否能独自完成。",
+        "如果我有机会，我会多旅行。",
+        "这个项目比预期早完成了。",
+        "他可能对他的经验撒谎了。",
+        "如果你听我的话，我们就不会有这个问题。",
+        "我不认为这是个正确的决定。",
+        "他在短时间内取得的成就令人难以置信。",
+        "虽然我很想去，但我不能。",
+        "如果我有更多的钱，我会买那栋房子。",
+        "希望你喜欢这个演讲。",
+        "我想知道他们是否会接受我的提议。",
+        "在你做决定之前知道真相是很重要的。",
+        "他说他会做，但我不确定他会履行承诺。",
+        "如果我早知道这些，我会做不同的事情。"
+      ]
+    }
+  }
+},
     "Introductions": {},
     "Weather": {},
     "Clothing": {},
