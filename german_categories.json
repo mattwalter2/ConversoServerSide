@@ -1,134 +1,226 @@
 {
-    "General Conversation": {
+    
+      "General Conversation": {
         "A1": {
-            "vocabulary": [
-                "german_A1_vocab.txt"
-            ],
-            "grammar": [
-                "Simple present tense",
-                "Basic noun-verb agreement",
-                "Definite and indefinite articles (der, die, das, ein, eine)",
-                "Personal pronouns (ich, du, er, sie)",
-                "Basic question formation",
-                "Basic adjective agreement",
-                "Numbers (1-20)",
-                "Days of the week"
-            ]
+          "grammar": [
+            "Basic sentence structure (Subject-Verb-Object)",
+            "Personal pronouns (ich, du, er/sie)",
+            "Simple present tense",
+            "Numbers (1-20)",
+            "Basic question formation with Fragewörter (wer, was, wo)",
+            "Basic noun-verb agreement",
+            "Time expressions (heute, morgen, jetzt)"
+          ],
+          "examples": [
+            "Hallo, wie heißt du?",
+            "Ich heiße Anna.",
+            "Wo wohnst du?",
+            "Ich wohne in Berlin.",
+            "Wie alt bist du?",
+            "Ich bin zwanzig Jahre alt.",
+            "Das ist mein Freund Peter.",
+            "Was machst du heute?",
+            "Ich gehe in den Park.",
+            "Ich habe einen kleinen Hund.",
+            "Hast du Geschwister?",
+            "Ja, ich habe einen Bruder.",
+            "Das Buch liegt auf dem Tisch.",
+            "Welcher Wochentag ist heute?",
+            "Heute ist Montag.",
+            "Meine Lieblingsfarbe ist Blau.",
+            "Ich mag Pizza.",
+            "Ich mag keinen Kaffee.",
+            "Möchtest du ins Kino gehen?",
+            "Ja, ich schaue gerne Filme."
+          ]
         },
         "A2": {
-            "vocabulary": [
-                "german_A1_vocab.txt",
-                "german_A2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense",
-                "Question formation",
-                "Possessive adjectives (mein, dein, sein)",
-                "Adjective agreement",
-                "Use of 'mögen' (to like)",
-                "Prepositions of place (in, an, auf)",
-                "Basic negation (nicht)",
-                "Numbers (20-100)"
-            ]
+          "grammar": [
+            "Present tense",
+            "Basic question formation with Fragewörter (wer, was, wo)",
+            "Possessive pronouns (mein, dein, sein/ihr)",
+            "Basic conjunctions (und, aber)",
+            "Basic negation with nicht/kein",
+            "Numbers (20-100)",
+            "Time expressions (am Morgen, am Abend)"
+          ],
+          "examples": [
+            "Um wie viel Uhr stehst du auf?",
+            "Ich stehe um sieben Uhr auf.",
+            "Was machst du in deiner Freizeit?",
+            "Ich lese gerne Bücher.",
+            "Ich gehe jeden Tag zur Schule.",
+            "Was ist dein Lieblingsessen?",
+            "Mein Lieblingsessen ist Pasta.",
+            "Das Auto meines Bruders ist rot.",
+            "Wo ist der Supermarkt?",
+            "Der Supermarkt ist in der Nähe von meinem Haus.",
+            "Welchen Wochentag magst du am liebsten?",
+            "Ich mag den Freitag.",
+            "Sie ist größer als ihre Schwester.",
+            "Wann isst du zu Mittag?",
+            "Ich esse um zwei Uhr nachmittags.",
+            "Die Schüler sind im Unterricht.",
+            "Was machst du am Wochenende gerne?",
+            "Ich gehe gerne ins Kino.",
+            "Ich mag die Kälte nicht.",
+            "Der Hund ist unter dem Tisch.",
+            "Was machst du morgen?"
+          ]
         },
         "B1": {
-            "vocabulary": [
-                "german_A1_vocab.txt",
-                "german_A2_vocab.txt",
-                "german_B1_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with regular verbs",
-                "Basic sentence structure",
-                "Prepositions of place (in, an, auf)",
-                "Use of 'es gibt' (there is/are)",
-                "Direct and indirect object pronouns",
-                "Past simple tense (Präteritum)",
-                "Reflexive verbs (sich waschen, sich anziehen)",
-                "Conjunctions (und, oder, aber)"
-            ]
+          "grammar": [
+            "Present continuous with 'sein + am + Verb'",
+            "Prepositions of place (auf, unter, neben)",
+            "Past tense with Perfekt",
+            "Future tense with werden",
+            "Comparison with als",
+            "Reflexive verbs (sich waschen, sich anziehen)",
+            "Direct and indirect object pronouns"
+          ],
+          "examples": [
+            "Gestern bin ich zum Supermarkt gegangen.",
+            "Hast du mein Handy gesehen?",
+            "Ich bereite mich auf die Prüfung vor.",
+            "Ich möchte Gitarre spielen lernen.",
+            "Wie viel kostet dieses Hemd?",
+            "Der Film war sehr spannend.",
+            "Was hast du letztes Wochenende gemacht?",
+            "Ich bin mit meinen Freunden an den Strand gefahren.",
+            "Mein Haus ist weit vom Zentrum entfernt.",
+            "Auf der Party waren viele Leute.",
+            "Sie steht jeden Morgen früh auf.",
+            "Wo ist der Bahnhof?",
+            "Der Kaffee ist sehr heiß.",
+            "Was bevorzugst du, Tee oder Kaffee?",
+            "Mein Bruder studiert an der Universität.",
+            "Wir haben einen neuen Fernseher gekauft.",
+            "Ich bin müde, weil ich schlecht geschlafen habe.",
+            "Sie hat mir gestern ein Buch gegeben.",
+            "Der Hund spielt im Garten.",
+            "Ich werde im Sommer nach Spanien reisen."
+          ]
         },
         "B2": {
-            "vocabulary": [
-                "german_A1_vocab.txt",
-                "german_A2_vocab.txt",
-                "german_B1_vocab.txt",
-                "german_B2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with irregular verbs",
-                "Questions and negations",
-                "Comparatives and superlatives",
-                "Past simple tense (Präteritum)",
-                "Use of reflexive verbs",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (basic)"
-            ]
+          "grammar": [
+            "Future tense with werden",
+            "Conditional sentences with wenn... dann",
+            "Comparison with besser/schlechter",
+            "Perfect vs. Imperfect tense",
+            "Subjunctive mood with Konjunktiv II (würde)",
+            "Advanced conjunctions (weil, obwohl)"
+          ],
+          "examples": [
+            "Wenn ich mehr Zeit hätte, würde ich Französisch lernen.",
+            "Wann kommst du zur Party?",
+            "Ich hoffe, du kommst zu meinem Geburtstag.",
+            "Ich möchte, dass du mir bei den Hausaufgaben hilfst.",
+            "Das schnellste Auto hat das Rennen gewonnen.",
+            "Ich möchte eines Tages Paris besuchen.",
+            "Hast du deutsches Essen probiert?",
+            "Die Prüfung war schwieriger, als ich erwartet habe.",
+            "Ich werde morgen zum Arzt gehen.",
+            "Was würdest du tun, wenn du im Lotto gewinnen würdest?",
+            "Ich hoffe, wir sehen uns bald.",
+            "Wenn morgen die Sonne scheint, gehen wir an den Strand.",
+            "Ich glaube nicht, dass er kommt.",
+            "Kannst du mir bei diesem Problem helfen?",
+            "Ich suche nach einem guten Buch.",
+            "Ich denke, er ist klüger als sein Bruder.",
+            "Sie studiert, um Ärztin zu werden.",
+            "Wann gehst du los?",
+            "Wenn du überall hin reisen könntest, wohin würdest du gehen?",
+            "Mein Traum ist es, im Ausland zu leben."
+          ]
         },
         "C1": {
-            "vocabulary": [
-                "german_A1_vocab.txt",
-                "german_A2_vocab.txt",
-                "german_B1_vocab.txt",
-                "german_B2_vocab.txt",
-                "german_C1_vocab.txt"
-            ],
-            "grammar": [
-                "Present continuous tense",
-                "Direct and indirect objects",
-                "Past continuous tense",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (intermediate)",
-                "Relative clauses",
-                "Passive voice"
-            ]
+          "grammar": [
+            "Present continuous with 'sein + am + Verb'",
+            "Perfective vs. imperfective tense",
+            "Complex sentence structures",
+            "Relative clauses",
+            "Subjunctive mood with Konjunktiv II",
+            "Passive voice"
+          ],
+          "examples": [
+            "Wenn ich gewusst hätte, dass du kommst, hätte ich etwas zu essen vorbereitet.",
+            "Ich denke nicht, dass sie die Wahrheit sagt.",
+            "Es ist wichtig, dass die Schüler jeden Tag lernen.",
+            "Der Film, den wir gestern gesehen haben, war unglaublich.",
+            "Das Projekt wurde vom Team in Rekordzeit abgeschlossen.",
+            "Was hast du dieses Wochenende vor?",
+            "Ich werde an einem neuen Projekt arbeiten.",
+            "Wenn ich mehr Zeit gehabt hätte, hätte ich den Bericht fertiggestellt.",
+            "Das Buch, das ich lese, ist sehr interessant.",
+            "Ich hoffe, du kannst zur Party kommen.",
+            "Es ist wahrscheinlich, dass es morgen regnen wird.",
+            "Wenn ich mit ihm sprechen könnte, würde ich um eine Erklärung bitten.",
+            "Ich suche eine Wohnung mit zwei Schlafzimmern.",
+            "Ich bin mir nicht sicher, ob er verstanden hat, was ich gesagt habe.",
+            "Das Haus wurde von einem berühmten Architekten entworfen.",
+            "Ich denke nicht, dass es einfach sein wird.",
+            "Wahrscheinlich werde ich nächstes Jahr in eine andere Stadt ziehen.",
+            "Das Essen wurde von einem professionellen Koch zubereitet.",
+            "Weißt du, ob sie eine Entscheidung getroffen haben?",
+            "Wenn ich das vorher gewusst hätte, hätte ich anders gehandelt."
+          ]
         },
         "C2": {
-            "vocabulary": [
-                "german_A1_vocab.txt",
-                "german_A2_vocab.txt",
-                "german_B1_vocab.txt",
-                "german_B2_vocab.txt",
-                "german_C1_vocab.txt",
-                "german_C2_vocab.txt"
-            ],
-            "grammar": [
-                "Present perfect tense",
-                "Reflexive verbs",
-                "Subjunctive mood (advanced)",
-                "Complex sentence structures",
-                "Reported speech",
-                "Idiomatic expressions",
-                "Advanced relative clauses",
-                "Imperfect tense",
-                "Pluperfect tense"
-            ]
+          "grammar": [
+            "Present perfect tense",
+            "Advanced subjunctive mood with Konjunktiv II",
+            "Reported speech",
+            "Complex sentence structures",
+            "Idiomatic expressions",
+            "Pluperfect tense"
+          ],
+          "examples": [
+            "Auch wenn ich mehr Zeit gehabt hätte, hätte ich das Projekt nicht beenden können.",
+            "Es hat mich überrascht, dass sie so früh fertig waren.",
+            "Es ist wahr, dass die Situation kompliziert ist, aber nicht unmöglich.",
+            "Sie sagte, dass sie morgen kommen würde, aber ich bin mir nicht sicher.",
+            "Wenn ich das gewusst hätte, was ich jetzt weiß, hätte ich anders gehandelt.",
+            "Wahrscheinlich ist ein Fehler im System aufgetreten.",
+            "Ich bezweifle, dass er es ohne Hilfe schaffen kann.",
+            "Wenn ich die Möglichkeit gehabt hätte, hätte ich mehr gereist.",
+            "Die Arbeit wurde viel früher als erwartet abgeschlossen.",
+            "Es ist wahrscheinlich, dass er über seine Erfahrung gelogen hat.",
+            "Wenn du mir zugehört hättest, wären wir nicht in diesem Problem.",
+            "Ich glaube nicht, dass es die richtige Entscheidung war.",
+            "Es ist unglaublich, was er in so kurzer Zeit erreicht hat.",
+            "Auch wenn ich gerne gegangen wäre, konnte ich nicht.",
+            "Wenn ich mehr Geld gehabt hätte, hätte ich dieses Haus gekauft.",
+            "Ich hoffe, dir hat die Präsentation gefallen.",
+            "Ich frage mich, ob sie mein Angebot akzeptiert hätten.",
+            "Es ist wichtig, dass du die Wahrheit weißt, bevor du eine Entscheidung triffst.",
+            "Er sagte, dass er es tun würde, aber ich bin mir nicht sicher, ob er sein Versprechen halten wird.",
+            "Wenn ich das alles vorher gewusst hätte, hätte ich anders gehandelt."
+          ]
         }
-    },
-    "Introductions": {
-
-    },
-    "Weather": {
-
-    },
-    "Clothing": {
-
-    },
-    "Sports": {
-
-    },
-    "Music": {
-
-    },
-    "Animals": {
-
-    },
-    "Travel": {
-
-    },
-    "Food": {
-
+      },
+        "Introductions": {
+    
+        },
+        "Weather": {
+    
+        },
+        "Clothing": {
+    
+        },
+        "Sports": {
+    
+        },
+        "Music": {
+    
+        },
+        "Animals": {
+    
+        },
+        "Travel": {
+    
+        },
+        "Food": {
+    
+        }
     }
-}
+    
