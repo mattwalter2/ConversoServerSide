@@ -1,134 +1,225 @@
 {
-    "General Conversation": {
-        "A1": {
-            "vocabulary": [
-                "italian_A1_vocab.txt"
-            ],
-            "grammar": [
-                "Simple present tense",
-                "Basic noun-verb agreement",
-                "Definite and indefinite articles (il, la, un, una)",
-                "Personal pronouns (io, tu, lui, lei)",
-                "Basic question formation",
-                "Basic adjective agreement",
-                "Numbers (1-20)",
-                "Days of the week"
-            ]
-        },
-        "A2": {
-            "vocabulary": [
-                "italian_A1_vocab.txt",
-                "italian_A2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense",
-                "Question formation",
-                "Possessive adjectives (mio, tuo, suo)",
-                "Adjective agreement",
-                "Use of 'piacere' (to like)",
-                "Prepositions of place (in, a, di)",
-                "Basic negation (non)",
-                "Numbers (20-100)"
-            ]
-        },
-        "B1": {
-            "vocabulary": [
-                "italian_A1_vocab.txt",
-                "italian_A2_vocab.txt",
-                "italian_B1_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with regular verbs",
-                "Basic sentence structure",
-                "Prepositions of place (in, a, di)",
-                "Use of 'c'è' and 'ci sono' (there is/are)",
-                "Direct and indirect object pronouns",
-                "Past simple tense (passato prossimo)",
-                "Reflexive verbs (alzarsi, lavarsi)",
-                "Conjunctions (e, o, ma)"
-            ]
-        },
-        "B2": {
-            "vocabulary": [
-                "italian_A1_vocab.txt",
-                "italian_A2_vocab.txt",
-                "italian_B1_vocab.txt",
-                "italian_B2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with irregular verbs",
-                "Questions and negations",
-                "Comparatives and superlatives",
-                "Past simple tense (passato prossimo)",
-                "Use of reflexive verbs",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (basic)"
-            ]
-        },
-        "C1": {
-            "vocabulary": [
-                "italian_A1_vocab.txt",
-                "italian_A2_vocab.txt",
-                "italian_B1_vocab.txt",
-                "italian_B2_vocab.txt",
-                "italian_C1_vocab.txt"
-            ],
-            "grammar": [
-                "Present continuous tense",
-                "Direct and indirect objects",
-                "Past continuous tense",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (intermediate)",
-                "Relative clauses",
-                "Passive voice"
-            ]
-        },
-        "C2": {
-            "vocabulary": [
-                "italian_A1_vocab.txt",
-                "italian_A2_vocab.txt",
-                "italian_B1_vocab.txt",
-                "italian_B2_vocab.txt",
-                "italian_C1_vocab.txt",
-                "italian_C2_vocab.txt"
-            ],
-            "grammar": [
-                "Present perfect tense",
-                "Reflexive verbs",
-                "Subjunctive mood (advanced)",
-                "Complex sentence structures",
-                "Reported speech",
-                "Idiomatic expressions",
-                "Advanced relative clauses",
-                "Imperfect tense",
-                "Pluperfect tense"
-            ]
-        }
-    },
-    "Introductions": {
-
-    },
-    "Weather": {
-
-    },
-    "Clothing": {
-
-    },
-    "Sports": {
-
-    },
-    "Music": {
-
-    },
-    "Animals": {
-
-    },
-    "Travel": {
-
-    },
-    "Food": {
-
-    }
-}
+   "General Conversation": {
+     "A1": {
+       "grammar": [
+         "Basic sentence structure (Subject-Verb-Object)",
+         "Personal pronouns (io, tu, lui/lei)",
+         "Simple present tense",
+         "Numbers (1-20)",
+         "Basic question formation with interrogatives (chi, cosa, dove)",
+         "Basic noun-verb agreement",
+         "Time expressions (oggi, domani, adesso)"
+       ],
+       "examples": [
+         "Ciao, come ti chiami?",
+         "Mi chiamo Anna.",
+         "Dove abiti?",
+         "Abito a Roma.",
+         "Quanti anni hai?",
+         "Ho vent'anni.",
+         "Questo è il mio amico Pietro.",
+         "Cosa fai oggi?",
+         "Vado al parco.",
+         "Ho un cane piccolo.",
+         "Hai fratelli o sorelle?",
+         "Sì, ho un fratello.",
+         "Il libro è sul tavolo.",
+         "Che giorno è oggi?",
+         "Oggi è lunedì.",
+         "Il mio colore preferito è il blu.",
+         "Mi piace la pizza.",
+         "Non mi piace il caffè.",
+         "Vuoi andare al cinema?",
+         "Sì, mi piace guardare i film."
+       ]
+     },
+     "A2": {
+       "grammar": [
+         "Present tense",
+         "Question formation with interrogatives (chi, cosa, dove)",
+         "Possessive pronouns (mio, tuo, suo)",
+         "Basic conjunctions (e, ma)",
+         "Basic negation with non",
+         "Numbers (20-100)",
+         "Time expressions (di mattina, di sera)"
+       ],
+       "examples": [
+         "A che ora ti svegli?",
+         "Mi sveglio alle sette.",
+         "Cosa ti piace fare nel tempo libero?",
+         "Mi piace leggere libri.",
+         "Vado a scuola tutti i giorni.",
+         "Qual è il tuo cibo preferito?",
+         "Il mio cibo preferito è la pasta.",
+         "La macchina di mio fratello è rossa.",
+         "Dov'è il supermercato?",
+         "Il supermercato è vicino a casa mia.",
+         "Qual è il tuo giorno preferito della settimana?",
+         "Preferisco il venerdì.",
+         "Lei è più alta di sua sorella.",
+         "A che ora pranzi?",
+         "Pranzo alle due del pomeriggio.",
+         "Gli studenti sono in classe.",
+         "Cosa ti piace fare nei fine settimana?",
+         "Mi piace andare al cinema.",
+         "Non mi piace il freddo.",
+         "Il cane è sotto il tavolo.",
+         "Cosa vuoi fare domani?"
+       ]
+     },
+     "B1": {
+       "grammar": [
+         "Present continuous with stare + gerund",
+         "Prepositions of place (su, sotto, accanto a)",
+         "Past tense with passato prossimo",
+         "Future tense with futuro semplice",
+         "Comparison with più/meno di",
+         "Reflexive verbs (svegliarsi, lavarsi)",
+         "Direct and indirect object pronouns"
+       ],
+       "examples": [
+         "Ieri sono andato al supermercato.",
+         "Hai visto il mio telefono?",
+         "Sto studiando per l'esame.",
+         "Voglio imparare a suonare la chitarra.",
+         "Quanto costa questa camicia?",
+         "Il film è stato molto emozionante.",
+         "Cosa hai fatto lo scorso fine settimana?",
+         "Sono andato in spiaggia con i miei amici.",
+         "La mia casa è lontana dal centro.",
+         "Alla festa c'erano molte persone.",
+         "Lei si sveglia presto ogni giorno.",
+         "Dov'è la stazione dei treni?",
+         "Il caffè è molto caldo.",
+         "Cosa preferisci, tè o caffè?",
+         "Mio fratello frequenta l'università.",
+         "Abbiamo comprato una nuova televisione.",
+         "Sono stanco perché non ho dormito bene.",
+         "Lei mi ha dato il libro ieri.",
+         "Il cane sta giocando in giardino.",
+         "Quest'estate andrò in Spagna."
+       ]
+     },
+     "B2": {
+       "grammar": [
+         "Future tense with futuro semplice",
+         "Conditional sentences with se... allora",
+         "Comparison with migliore/peggiore",
+         "Perfect vs. imperfect tense",
+         "Subjunctive mood with congiuntivo presente",
+         "Advanced conjunctions (perché, sebbene)"
+       ],
+       "examples": [
+         "Se avessi più tempo, studierei il francese.",
+         "Quando vieni alla festa?",
+         "Spero che tu venga al mio compleanno.",
+         "Voglio che tu mi aiuti con i compiti.",
+         "L'auto più veloce ha vinto la gara.",
+         "Mi piacerebbe visitare Parigi un giorno.",
+         "Hai mai provato il cibo italiano?",
+         "L'esame era più difficile di quanto mi aspettassi.",
+         "Domani andrò dal dottore.",
+         "Cosa faresti se vincessi alla lotteria?",
+         "Spero che ci vediamo presto.",
+         "Se domani c'è il sole, andiamo al mare.",
+         "Non credo che lui venga.",
+         "Puoi aiutarmi con questo problema?",
+         "Sto cercando un buon libro da leggere.",
+         "Penso che lui sia più intelligente di suo fratello.",
+         "Lei sta studiando per diventare dottoressa.",
+         "A che ora parti?",
+         "Se potessi viaggiare ovunque, dove andresti?",
+         "Il mio sogno è vivere all'estero."
+       ]
+     },
+     "C1": {
+       "grammar": [
+         "Present continuous with stare + gerund",
+         "Perfect vs. imperfect tense",
+         "Complex sentence structures",
+         "Relative clauses",
+         "Subjunctive mood with congiuntivo imperfetto",
+         "Passive voice"
+       ],
+       "examples": [
+         "Se avessi saputo che saresti venuto, avrei preparato qualcosa da mangiare.",
+         "Non credo che lei stia dicendo la verità.",
+         "È importante che gli studenti studino ogni giorno.",
+         "Il film che abbiamo visto ieri è stato incredibile.",
+         "Il progetto è stato completato dal team in tempo record.",
+         "Cosa pensi di fare questo fine settimana?",
+         "Sto lavorando a un nuovo progetto.",
+         "Se avessi avuto più tempo, avrei finito il rapporto.",
+         "Il libro che sto leggendo è molto interessante.",
+         "Spero che tu possa venire alla festa.",
+         "Probabilmente pioverà domani.",
+         "Se potessi parlargli, gli chiederei una spiegazione.",
+         "Sto cercando un appartamento con due camere da letto.",
+         "Non sono sicuro che lui abbia capito quello che ho detto.",
+         "La casa è stata progettata da un famoso architetto.",
+         "Non credo che sarà facile.",
+         "È probabile che mi trasferisca in un'altra città l'anno prossimo.",
+         "Il cibo è stato preparato da uno chef professionista.",
+         "Sai se hanno preso una decisione?",
+         "Se l'avessi saputo prima, avrei fatto qualcosa di diverso."
+       ]
+     },
+     "C2": {
+       "grammar": [
+         "Present perfect tense",
+         "Advanced subjunctive mood with congiuntivo passato",
+         "Reported speech",
+         "Complex sentence structures",
+         "Idiomatic expressions",
+         "Pluperfect tense"
+       ],
+       "examples": [
+         "Anche se avessi avuto più tempo, non avrei potuto completare il progetto.",
+         "Mi ha sorpreso che avessero finito così presto.",
+         "È vero che la situazione è complicata, ma non impossibile.",
+         "Ha detto che sarebbe venuta domani, ma non sono sicuro.",
+         "Se avessi saputo quello che so ora, avrei agito diversamente.",
+         "È probabile che ci sia stato un errore nel sistema.",
+         "Dubito che lui possa farlo senza aiuto.",
+         "Se avessi avuto l'opportunità, avrei viaggiato di più.",
+         "Il lavoro è stato completato molto prima del previsto.",
+         "È probabile che lui abbia mentito sulla sua esperienza.",
+         "Se mi avessi ascoltato, non saremmo in questo problema.",
+         "Non credo che sia stata la decisione giusta.",
+         "È incredibile ciò che ha realizzato in così poco tempo.",
+         "Anche se avrei voluto andare, non ho potuto farlo.",
+         "Se avessi avuto più soldi, avrei comprato quella casa.",
+         "Spero che ti sia piaciuta la presentazione.",
+         "Mi chiedo se avrebbero accettato la mia proposta.",
+         "È importante che tu sappia la verità prima di prendere una decisione.",
+         "Ha detto che lo avrebbe fatto, ma non sono sicuro che manterrà la promessa.",
+         "Se avessi saputo tutto questo prima, avrei fatto le cose in modo diverso."
+       ]
+     }
+   },
+     "Introductions": {
+ 
+     },
+     "Weather": {
+ 
+     },
+     "Clothing": {
+ 
+     },
+     "Sports": {
+ 
+     },
+     "Music": {
+ 
+     },
+     "Animals": {
+ 
+     },
+     "Travel": {
+ 
+     },
+     "Food": {
+ 
+     }
+ }
+ 
