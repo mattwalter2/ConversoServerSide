@@ -617,9 +617,402 @@
     }
 },
 
+    "Work and Career": {
+      "A1": {
+        "grammar": [
+          "Simple present tense",
+          "Basic noun-verb agreement",
+          "Definite and indefinite articles (el, la, un, una)",
+          "Personal pronouns (yo, tú, él, ella)",
+          "Basic question formation",
+          "Basic adjective agreement",
+          "Numbers (1-20)",
+          "Common verbs related to work (trabajar, hablar)"
+        ],
+        "examples": [
+          "Yo trabajo en una oficina.",
+          "Ella es profesora.",
+          "¿Dónde trabajas?",
+          "Trabajo de nueve a cinco.",
+          "Mi jefe es muy amable.",
+          "Él es un médico.",
+          "¿A qué te dedicas?",
+          "Trabajo en un restaurante.",
+          "El lunes voy al trabajo.",
+          "Tengo una reunión hoy.",
+          "¿Tienes mucho trabajo?",
+          "Sí, tengo mucho trabajo.",
+          "Mi compañero de trabajo es muy simpático.",
+          "Me gusta mi trabajo.",
+          "Trabajo de lunes a viernes.",
+          "¿Tienes vacaciones?",
+          "Sí, tengo una semana de vacaciones.",
+          "Ella es ingeniera.",
+          "Yo soy estudiante.",
+          "Voy a la oficina todos los días."
+        ]
+      },
+      "A2": {
+        "grammar": [
+          "Present tense",
+          "Possessive adjectives (mi, tu, su)",
+          "Question formation",
+          "Basic prepositions related to work (en, con, para)",
+          "Use of 'gustar' (to like)",
+          "Basic negation (no)",
+          "Numbers (20-100)"
+        ],
+        "examples": [
+          "Trabajo en una empresa grande.",
+          "Me gusta trabajar con mis compañeros.",
+          "¿Cuántas horas trabajas al día?",
+          "Trabajo ocho horas al día.",
+          "No me gusta trabajar los fines de semana.",
+          "¿Te gusta tu trabajo?",
+          "Sí, me gusta mucho.",
+          "El jefe de mi amigo es muy estricto.",
+          "Tengo una reunión importante mañana.",
+          "¿A qué hora empieza tu turno?",
+          "Mi turno empieza a las nueve.",
+          "Trabajo para una empresa internacional.",
+          "¿Tienes compañeros de trabajo?",
+          "Sí, tengo muchos compañeros de trabajo.",
+          "Mi jefe es muy exigente.",
+          "Tengo que entregar un proyecto el viernes.",
+          "¿Cómo es tu oficina?",
+          "Mi oficina es pequeña pero cómoda.",
+          "¿Vas al trabajo en coche?",
+          "No, voy al trabajo en tren."
+        ]
+      },
+      "B1": {
+        "grammar": [
+          "Present tense with regular verbs",
+          "Simple past tense (preterite)",
+          "Direct and indirect object pronouns",
+          "Reflexive verbs (levantarse, prepararse)",
+          "Use of 'hay' (there is/are)",
+          "Conjunctions (y, o, pero)"
+        ],
+        "examples": [
+          "Ayer tuve una reunión con mi jefe.",
+          "Me levanto temprano para ir al trabajo.",
+          "Quiero encontrar un nuevo empleo.",
+          "El trabajo en equipo es muy importante.",
+          "Fui a una entrevista de trabajo la semana pasada.",
+          "Hoy tengo que presentar un informe.",
+          "¿Con quién trabajas?",
+          "Trabajo con mi equipo en este proyecto.",
+          "Mi jefe me pidió que terminara el informe.",
+          "Trabajo en una empresa que desarrolla software.",
+          "Me gusta trabajar desde casa cuando es posible.",
+          "Nosotros terminamos el proyecto ayer.",
+          "El ambiente de trabajo es muy agradable.",
+          "¿Cómo fue tu primer día de trabajo?",
+          "Mi compañero de trabajo me ayudó mucho.",
+          "Estoy buscando un nuevo puesto en la empresa.",
+          "Tengo que prepararme para una reunión.",
+          "El salario es uno de los motivos para cambiar de trabajo.",
+          "Mi horario es flexible, lo cual es muy conveniente.",
+          "Voy a pedir un aumento de sueldo este año."
+        ]
+      },
+      "B2": {
+        "grammar": [
+          "Present tense with irregular verbs",
+          "Past simple tense (preterite)",
+          "Future tense",
+          "Conditional tense",
+          "Subjunctive mood (basic)"
+        ],
+        "examples": [
+          "Si tuviera más experiencia, aplicaría para el puesto.",
+          "El próximo mes voy a empezar un nuevo trabajo.",
+          "¿Has trabajado en este tipo de proyecto antes?",
+          "Si recibo la oferta, aceptaré el empleo.",
+          "Espero que la reunión sea productiva.",
+          "Si tuviera más tiempo, buscaría un trabajo nuevo.",
+          "Mi jefe me pidió que trabajara horas extra esta semana.",
+          "¿Qué harías si te ofrecieran un ascenso?",
+          "Voy a buscar empleo en otra ciudad.",
+          "No creo que tenga tiempo para terminar el proyecto hoy.",
+          "Si me hubieran avisado antes, habría preparado la presentación.",
+          "Espero que todos lleguen a tiempo a la reunión.",
+          "Voy a cambiar de trabajo el próximo año.",
+          "Mi compañero de trabajo me dijo que va a renunciar.",
+          "El salario que me ofrecieron es muy bueno.",
+          "Si tuviera más flexibilidad, podría trabajar desde casa.",
+          "Me gustaría trabajar en una empresa internacional.",
+          "El jefe nos pidió que entregáramos el informe antes del viernes.",
+          "Si hubiera sabido sobre la oferta, habría aplicado antes.",
+          "Espero que tengamos una decisión pronto sobre el proyecto."
+        ]
+      },
+      "C1": {
+        "grammar": [
+          "Present continuous tense",
+          "Future tense",
+          "Conditional tense",
+          "Subjunctive mood (intermediate)",
+          "Passive voice",
+          "Relative clauses"
+        ],
+        "examples": [
+          "Estoy trabajando en un proyecto importante en este momento.",
+          "Si hubiera tenido más tiempo, habría terminado el informe.",
+          "Es probable que me ofrezcan un ascenso pronto.",
+          "Si me hubieran informado antes, habría hecho los cambios necesarios.",
+          "El informe fue presentado por mi compañero de equipo.",
+          "El proyecto que estamos desarrollando es muy interesante.",
+          "No creo que mi jefe esté contento con el resultado.",
+          "Voy a estar trabajando desde casa toda la próxima semana.",
+          "Si pudiera cambiar algo de mi trabajo, sería el horario.",
+          "El informe que entregamos ayer fue bien recibido.",
+          "No estoy seguro de que la empresa apruebe el nuevo presupuesto.",
+          "Si hubiera sabido que tendríamos más tiempo, habría hecho una revisión más detallada.",
+          "El aumento de sueldo fue aprobado por la gerencia.",
+          "El equipo que lidero está trabajando de forma eficiente.",
+          "Estoy seguro de que el proyecto será un éxito.",
+          "Espero que podamos completar el trabajo antes de la fecha límite.",
+          "Si tuviera más recursos, podríamos hacer un mejor trabajo.",
+          "La decisión fue tomada por la junta directiva.",
+          "El próximo año, la empresa va a expandirse a nuevos mercados.",
+          "No creo que podamos cumplir con el plazo sin ayuda adicional."
+        ]
+      },
+      "C2": {
+        "grammar": [
+          "Present perfect tense",
+          "Past continuous tense",
+          "Subjunctive mood (advanced)",
+          "Complex sentence structures",
+          "Reported speech",
+          "Idiomatic expressions"
+        ],
+        "examples": [
+          "Si hubiera sabido lo complicado que sería, habría pedido más tiempo.",
+          "El proyecto ha sido más difícil de lo que pensaba.",
+          "Me dijeron que el presupuesto fue aprobado, pero no estoy seguro.",
+          "Aunque el trabajo es exigente, lo disfruto mucho.",
+          "Si hubiera tenido más recursos, el resultado habría sido mejor.",
+          "Dijeron que la decisión sería tomada hoy, pero todavía no hemos recibido noticias.",
+          "No creo que haya sido justo el proceso de selección.",
+          "Es probable que el equipo haya terminado el proyecto antes de la fecha límite.",
+          "Me gustaría haber trabajado en este proyecto desde el principio.",
+          "Si no hubiera tenido ayuda, no habría terminado a tiempo.",
+          "El informe fue presentado por mi jefe ayer.",
+          "Es probable que haya más oportunidades de crecimiento en el futuro.",
+          "Aunque el salario no es el mejor, las condiciones de trabajo son excelentes.",
+          "Dudo que pueda encontrar otro trabajo tan bueno como este.",
+          "Si me hubieran dado más tiempo, habría hecho una investigación más completa.",
+          "Espero que la próxima reunión sea más productiva.",
+          "Me gustaría saber si tenemos alguna oportunidad de obtener el contrato.",
+          "Si pudiera volver atrás, habría manejado el proyecto de manera diferente.",
+          "Dijeron que el proyecto se retrasaría, pero todavía no tenemos una confirmación oficial.",
+          "Me sorprende que hayamos terminado antes de lo previsto."
+        ]
+      }
+    },
+    
+        "Health and Fitness": {
+          "A1": {
+            "grammar": [
+              "Simple present tense",
+              "Basic noun-verb agreement",
+              "Definite and indefinite articles (el, la, un, una)",
+              "Personal pronouns (yo, tú, él, ella)",
+              "Basic question formation",
+              "Basic adjective agreement",
+              "Numbers (1-20)",
+              "Common verbs related to health (correr, comer, beber)"
+            ],
+            "examples": [
+              "Yo corro todos los días.",
+              "Ella come frutas y verduras.",
+              "¿Te gusta hacer ejercicio?",
+              "Sí, me gusta mucho hacer ejercicio.",
+              "Voy al gimnasio los lunes.",
+              "Él bebe mucha agua.",
+              "¿Cuántas horas duermes?",
+              "Duermo ocho horas cada noche.",
+              "El doctor es muy amable.",
+              "Tengo un dolor de cabeza.",
+              "Hago yoga por la mañana.",
+              "¿Qué comes para el desayuno?",
+              "Como pan y fruta.",
+              "Es importante beber agua.",
+              "Voy a caminar después del trabajo.",
+              "Ella es muy saludable.",
+              "Voy al médico una vez al año.",
+              "¿Te gusta correr?",
+              "No, prefiero caminar.",
+              "Tengo una bicicleta nueva."
+            ]
+          },
+          "A2": {
+            "grammar": [
+              "Present tense",
+              "Possessive adjectives (mi, tu, su)",
+              "Basic negation (no)",
+              "Prepositions of time (por la mañana, por la tarde)",
+              "Basic reflexive verbs (levantarse, ducharse)",
+              "Basic expressions of frequency (siempre, a veces)",
+              "Numbers (20-100)"
+            ],
+            "examples": [
+              "Me levanto temprano para hacer ejercicio.",
+              "Voy al gimnasio tres veces a la semana.",
+              "Me gusta correr en el parque.",
+              "¿Cuántas veces a la semana haces ejercicio?",
+              "Hago ejercicio cuatro veces por semana.",
+              "No me gusta correr, prefiero nadar.",
+              "Tomo vitaminas todos los días.",
+              "Ella come comida saludable.",
+              "¿Cuántas horas duermes cada noche?",
+              "Duermo ocho horas por noche.",
+              "Hago yoga por la mañana.",
+              "El médico me dijo que necesito hacer más ejercicio.",
+              "No como comida rápida porque no es saludable.",
+              "Bebo dos litros de agua cada día.",
+              "A veces me duele la espalda después de hacer ejercicio.",
+              "Me siento mejor después de correr.",
+              "Voy a hacer una caminata el fin de semana.",
+              "Es importante dormir bien para la salud.",
+              "Tengo una cita con el médico mañana.",
+              "Corro cinco kilómetros cada día."
+            ]
+          },
+          "B1": {
+            "grammar": [
+              "Present tense with regular verbs",
+              "Past simple tense (preterite)",
+              "Direct and indirect object pronouns",
+              "Reflexive verbs (levantarse, prepararse)",
+              "Use of 'hay' (there is/are)",
+              "Conjunctions (y, o, pero)"
+            ],
+            "examples": [
+              "Ayer fui al gimnasio y corrí durante una hora.",
+              "Me levanto temprano para ir a clases de yoga.",
+              "Comí una ensalada saludable para el almuerzo.",
+              "Después de entrenar, me siento muy bien.",
+              "Hay muchas personas que prefieren caminar en lugar de correr.",
+              "¿Cuándo empezaste a hacer ejercicio regularmente?",
+              "Empecé a hacer ejercicio hace dos años.",
+              "Me duele el brazo después de levantar pesas.",
+              "¿Qué haces para mantenerte en forma?",
+              "Intento comer saludable y hacer ejercicio todos los días.",
+              "Voy al gimnasio después del trabajo.",
+              "Prefiero correr por la mañana cuando no hace calor.",
+              "Comer sano es tan importante como hacer ejercicio.",
+              "Mi entrenador me dijo que debo descansar más.",
+              "El fin de semana pasado hice una caminata larga en las montañas.",
+              "Ella está entrenando para una maratón.",
+              "Me gusta hacer ejercicio porque me da energía.",
+              "Hice una clase de yoga ayer y me encantó.",
+              "Mi dieta incluye muchas frutas y verduras.",
+              "El descanso es esencial para una buena salud."
+            ]
+          },
+          "B2": {
+            "grammar": [
+              "Present tense with irregular verbs",
+              "Past simple tense (preterite)",
+              "Future tense",
+              "Conditional tense",
+              "Subjunctive mood (basic)"
+            ],
+            "examples": [
+              "Si tuviera más tiempo, iría al gimnasio todos los días.",
+              "Voy a empezar una nueva rutina de ejercicios la próxima semana.",
+              "¿Has probado alguna vez una clase de spinning?",
+              "Si me siento mejor, iré a correr mañana.",
+              "Mi nutricionista me recomendó reducir el azúcar en mi dieta.",
+              "Si tuviera que elegir entre yoga y correr, preferiría correr.",
+              "No creo que pueda correr una maratón, pero me gustaría intentarlo.",
+              "Voy a inscribirme en una competencia de fitness.",
+              "El médico me recomendó que camine más cada día.",
+              "Si hubiera sabido lo bien que me sentiría, habría empezado antes a hacer ejercicio.",
+              "Espero que mi nueva rutina de ejercicios me ayude a sentirme mejor.",
+              "Si llueve mañana, haré ejercicio en casa.",
+              "No estoy seguro de si podré asistir a la clase de yoga mañana.",
+              "Si pudiera, haría ejercicio todos los días sin excepción.",
+              "Espero que la clase de hoy no sea tan difícil.",
+              "Si pudiera cambiar algo en mi rutina, haría más ejercicios de estiramiento.",
+              "Voy a inscribirme en un gimnasio el mes que viene.",
+              "Me gustaría correr una maratón algún día.",
+              "El descanso es tan importante como el ejercicio.",
+              "No creo que pueda hacer yoga todos los días, pero lo intentaré."
+            ]
+          },
+          "C1": {
+            "grammar": [
+              "Present continuous tense",
+              "Future tense",
+              "Conditional tense",
+              "Subjunctive mood (intermediate)",
+              "Passive voice",
+              "Relative clauses"
+            ],
+            "examples": [
+              "Estoy entrenando para una competencia de triatlón.",
+              "Si hubiera sabido que sería tan difícil, me habría preparado mejor.",
+              "Espero que puedas acompañarme a la clase de yoga la próxima semana.",
+              "El plan de ejercicios que sigo fue diseñado por un profesional.",
+              "El programa que estoy siguiendo está enfocado en la resistencia y la fuerza.",
+              "Voy a empezar a entrenar para una maratón el mes que viene.",
+              "Si tuviera más tiempo, haría más ejercicios de flexibilidad.",
+              "No creo que la dieta que sigo sea la mejor, pero está funcionando.",
+              "Si hubiera descansado más, hoy no me sentiría tan cansado.",
+              "El médico me recomendó hacer ejercicio moderado cada día.",
+              "El plan que sigo incluye ejercicios de cardio y fuerza.",
+              "La rutina que hago está diseñada para mejorar mi salud cardiovascular.",
+              "Si pudiera cambiar algo, haría más ejercicios al aire libre.",
+              "Es importante que descanses entre los entrenamientos para evitar lesiones.",
+              "Espero que podamos entrenar juntos la próxima semana.",
+              "El descanso después de un entrenamiento intenso es crucial.",
+              "El médico me dijo que mi dieta debe mejorar para lograr mejores resultados.",
+              "Me encantaría participar en una competencia de fitness algún día.",
+              "El entrenamiento que sigo es muy exigente, pero efectivo.",
+              "El gimnasio donde entreno tiene excelentes instalaciones."
+            ]
+          },
+          "C2": {
+            "grammar": [
+              "Present perfect tense",
+              "Past continuous tense",
+              "Subjunctive mood (advanced)",
+              "Complex sentence structures",
+              "Reported speech",
+              "Idiomatic expressions"
+            ],
+            "examples": [
+              "Si hubiera sabido que el entrenamiento sería tan intenso, me habría preparado mejor.",
+              "El entrenador dijo que necesitaba mejorar mi técnica para evitar lesiones.",
+              "Si hubiera descansado más, no estaría tan agotado ahora.",
+              "Es probable que mi rendimiento mejore con la nueva rutina.",
+              "Aunque el entrenamiento es difícil, me siento mejor después de cada sesión.",
+              "No creo que haya logrado todos mis objetivos, pero estoy cerca.",
+              "Si tuviera más experiencia, me gustaría ser entrenador personal.",
+              "Me parece increíble lo rápido que he mejorado mi resistencia.",
+              "El médico me recomendó hacer cambios en mi dieta para mejorar mi salud.",
+              "Si hubiera sabido lo beneficioso que es el yoga, lo habría empezado antes.",
+              "No creo que el programa de ejercicios sea adecuado para todos.",
+              "Es importante que sigas un plan de ejercicio que se ajuste a tus necesidades.",
+              "Si hubiera tenido más tiempo para descansar, habría tenido un mejor rendimiento.",
+              "No estoy seguro de que el ejercicio sea suficiente sin una buena dieta.",
+              "Aunque el plan de entrenamiento es intenso, creo que es efectivo.",
+              "Si hubiera sabido que el yoga sería tan relajante, lo habría hecho antes.",
+              "El médico me dijo que es importante equilibrar la dieta y el ejercicio.",
+              "Si hubiera seguido un plan más estricto, habría obtenido mejores resultados.",
+              "Es probable que la nueva rutina me ayude a alcanzar mis objetivos.",
+              "No creo que pueda seguir este ritmo de entrenamiento por mucho tiempo."
+            ]
+          }
+        },
+          
 
   
-
   
 "Clothing": {
 
@@ -1034,8 +1427,11 @@
       ]
     }
   }
+  
+  
     
 }
+
 
    
   
