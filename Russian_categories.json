@@ -1,134 +1,227 @@
 {
-    "General Conversation": {
-        "A1": {
-            "vocabulary": [
-                "russian_A1_vocab.txt"
-            ],
-            "grammar": [
-                "Simple present tense",
-                "Basic noun-verb agreement",
-                "Definite and indefinite articles (нет в русском)",
-                "Personal pronouns (я, ты, он, она)",
-                "Basic question formation",
-                "Basic adjective agreement",
-                "Numbers (1-20)",
-                "Days of the week"
-            ]
-        },
-        "A2": {
-            "vocabulary": [
-                "russian_A1_vocab.txt",
-                "russian_A2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense",
-                "Question formation",
-                "Possessive adjectives (мой, твой, его)",
-                "Adjective agreement",
-                "Use of 'нравиться' (to like)",
-                "Prepositions of place (в, на, из)",
-                "Basic negation (не)",
-                "Numbers (20-100)"
-            ]
-        },
-        "B1": {
-            "vocabulary": [
-                "russian_A1_vocab.txt",
-                "russian_A2_vocab.txt",
-                "russian_B1_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with regular verbs",
-                "Basic sentence structure",
-                "Prepositions of place (в, на, из)",
-                "Use of 'есть' and 'нет' (there is/are)",
-                "Direct and indirect object pronouns",
-                "Past simple tense (preterite)",
-                "Reflexive verbs (просыпаться, умываться)",
-                "Conjunctions (и, или, но)"
-            ]
-        },
-        "B2": {
-            "vocabulary": [
-                "russian_A1_vocab.txt",
-                "russian_A2_vocab.txt",
-                "russian_B1_vocab.txt",
-                "russian_B2_vocab.txt"
-            ],
-            "grammar": [
-                "Present tense with irregular verbs",
-                "Questions and negations",
-                "Comparatives and superlatives",
-                "Past simple tense (preterite)",
-                "Use of reflexive verbs",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (basic)"
-            ]
-        },
-        "C1": {
-            "vocabulary": [
-                "russian_A1_vocab.txt",
-                "russian_A2_vocab.txt",
-                "russian_B1_vocab.txt",
-                "russian_B2_vocab.txt",
-                "russian_C1_vocab.txt"
-            ],
-            "grammar": [
-                "Present continuous tense",
-                "Direct and indirect objects",
-                "Past continuous tense",
-                "Future tense",
-                "Conditional tense",
-                "Subjunctive mood (intermediate)",
-                "Relative clauses",
-                "Passive voice"
-            ]
-        },
-        "C2": {
-            "vocabulary": [
-                "russian_A1_vocab.txt",
-                "russian_A2_vocab.txt",
-                "russian_B1_vocab.txt",
-                "russian_B2_vocab.txt",
-                "russian_C1_vocab.txt",
-                "russian_C2_vocab.txt"
-            ],
-            "grammar": [
-                "Present perfect tense",
-                "Reflexive verbs",
-                "Subjunctive mood (advanced)",
-                "Complex sentence structures",
-                "Reported speech",
-                "Idiomatic expressions",
-                "Advanced relative clauses",
-                "Imperfect tense",
-                "Pluperfect tense"
-            ]
-        }
-    },
-    "Introductions": {
-
-    },
-    "Weather": {
-
-    },
-    "Clothing": {
-
-    },
-    "Sports": {
-
-    },
-    "Music": {
-
-    },
-    "Animals": {
-
-    },
-    "Travel": {
-
-    },
-    "Food": {
-
-    }
-}
+    
+   "General Conversation": {
+     "A1": {
+       "grammar": [
+         "Basic sentence structure (Subject-Verb-Object)",
+         "Personal pronouns (я, ты, он/она)",
+         "Simple present tense",
+         "Numbers (1-20)",
+         "Basic question formation with ли",
+         "Basic noun-verb agreement",
+         "Time expressions (сегодня, завтра, сейчас)"
+       ],
+       "examples": [
+         "Привет, как тебя зовут?",
+         "Меня зовут Анна.",
+         "Где ты живёшь?",
+         "Я живу в Москве.",
+         "Сколько тебе лет?",
+         "Мне двадцать лет.",
+         "Это мой друг Пётр.",
+         "Что ты делаешь сегодня?",
+         "Я иду в парк.",
+         "У меня есть маленькая собака.",
+         "У тебя есть братья или сёстры?",
+         "Да, у меня есть брат.",
+         "Книга на столе.",
+         "Какой сегодня день недели?",
+         "Сегодня понедельник.",
+         "Мой любимый цвет синий.",
+         "Мне нравится пицца.",
+         "Мне не нравится кофе.",
+         "Ты хочешь пойти в кино?",
+         "Да, мне нравится смотреть фильмы."
+       ]
+     },
+     "A2": {
+       "grammar": [
+         "Present tense",
+         "Basic question formation with кто, что, где",
+         "Possessive pronouns (мой, твой, его)",
+         "Basic conjunctions (и, но)",
+         "Basic negation with не",
+         "Numbers (20-100)",
+         "Time expressions (утром, днём, вечером)"
+       ],
+       "examples": [
+         "Во сколько ты встаёшь утром?",
+         "Я встаю в семь часов.",
+         "Что ты любишь делать в свободное время?",
+         "Я люблю читать книги.",
+         "Я хожу в школу каждый день.",
+         "Какое твоё любимое блюдо?",
+         "Моё любимое блюдо — паста.",
+         "Машина моего брата красная.",
+         "Где находится супермаркет?",
+         "Супермаркет рядом с моим домом.",
+         "Какой твой любимый день недели?",
+         "Мой любимый день — пятница.",
+         "Она выше своей сестры.",
+         "Когда ты обедаешь?",
+         "Я обедаю в два часа дня.",
+         "Студенты на уроке.",
+         "Что ты любишь делать по выходным?",
+         "Я люблю ходить в кино.",
+         "Мне не нравится холод.",
+         "Собака под столом.",
+         "Что ты будешь делать завтра?"
+       ]
+     },
+     "B1": {
+       "grammar": [
+         "Present continuous tense",
+         "Prepositions of place (на, в, под)",
+         "Past tense with -л",
+         "Future tense with буду",
+         "Comparison with чем",
+         "Reflexive verbs (просыпаться, умываться)",
+         "Direct and indirect object pronouns"
+       ],
+       "examples": [
+         "Вчера я ходил в магазин.",
+         "Ты видел мой телефон?",
+         "Я готовлюсь к экзамену.",
+         "Я хочу научиться играть на гитаре.",
+         "Сколько стоит эта рубашка?",
+         "Фильм был очень интересный.",
+         "Что ты делал на прошлых выходных?",
+         "Я ездил на пляж с друзьями.",
+         "Мой дом далеко от центра.",
+         "На вечеринке было много людей.",
+         "Она встаёт рано каждый день.",
+         "Где находится вокзал?",
+         "Кофе очень горячий.",
+         "Что ты предпочитаешь, чай или кофе?",
+         "Мой брат учится в университете.",
+         "Мы купили новый телевизор.",
+         "Я устал, потому что плохо спал.",
+         "Она дала мне книгу вчера.",
+         "Собака играет в саду.",
+         "Я поеду в Испанию этим летом."
+       ]
+     },
+     "B2": {
+       "grammar": [
+         "Future tense with буду",
+         "Conditional sentences (если... то...)",
+         "Comparison with лучше/хуже",
+         "Perfective aspect",
+         "Subjunctive mood (чтобы)",
+         "Questions and negations",
+         "Advanced conjunctions (потому что, хотя)"
+       ],
+       "examples": [
+         "Если у меня будет больше времени, я буду учить французский.",
+         "Когда ты придёшь на вечеринку?",
+         "Надеюсь, ты придёшь на мой день рождения.",
+         "Я хочу, чтобы ты помог мне с домашней работой.",
+         "Самая быстрая машина выиграла гонку.",
+         "Мне бы хотелось когда-нибудь посетить Париж.",
+         "Ты пробовал русскую кухню?",
+         "Экзамен был сложнее, чем я ожидал.",
+         "Я пойду к врачу завтра.",
+         "Что бы ты сделал, если бы выиграл в лотерею?",
+         "Надеюсь, мы скоро увидимся.",
+         "Если завтра будет солнечно, мы пойдём на пляж.",
+         "Я не думаю, что он придёт.",
+         "Можешь помочь мне с этой задачей?",
+         "Я ищу хорошую книгу для чтения.",
+         "Думаю, он умнее своего брата.",
+         "Она учится на врача.",
+         "Когда ты собираешься уходить?",
+         "Если бы ты мог поехать в любую страну, куда бы ты поехал?",
+         "Моя мечта — жить за границей."
+       ]
+     },
+     "C1": {
+       "grammar": [
+         "Present continuous tense",
+         "Perfective vs. imperfective aspect",
+         "Complex sentence structures",
+         "Relative clauses",
+         "Conditional mood",
+         "Passive voice"
+       ],
+       "examples": [
+         "Если бы я знал, что ты придёшь, я бы приготовил что-нибудь поесть.",
+         "Я не думаю, что она говорит правду.",
+         "Важно, чтобы студенты учились каждый день.",
+         "Фильм, который мы вчера посмотрели, был потрясающим.",
+         "Проект был завершён командой в рекордное время.",
+         "Что ты планируешь делать в эти выходные?",
+         "Я буду работать над новым проектом.",
+         "Если бы у меня было больше времени, я бы закончил отчёт.",
+         "Книга, которую я читаю, очень интересная.",
+         "Надеюсь, ты сможешь прийти на вечеринку.",
+         "Завтра, возможно, пойдёт дождь.",
+         "Если бы я мог поговорить с ним, я бы попросил объяснений.",
+         "Я ищу квартиру с двумя спальнями.",
+         "Я не уверен, что он понял, что я сказал.",
+         "Дом был построен известным архитектором.",
+         "Я не думаю, что это будет легко.",
+         "Вероятно, я перееду в другой город в следующем году.",
+         "Еду приготовил профессиональный шеф-повар.",
+         "Ты знаешь, приняли ли они решение?",
+         "Если бы я знал это раньше, я бы поступил по-другому."
+       ]
+     },
+     "C2": {
+       "grammar": [
+         "Present perfect tense",
+         "Subjunctive mood",
+         "Reported speech",
+         "Complex sentence structures",
+         "Idiomatic expressions",
+         "Pluperfect tense"
+       ],
+       "examples": [
+         "Если бы у меня было больше времени, я бы не смог закончить проект.",
+         "Меня удивило, что они закончили так рано.",
+         "Это правда, что ситуация сложная, но не невозможная.",
+         "Она сказала, что придёт завтра, но я не уверен.",
+         "Если бы я знал то, что знаю сейчас, я бы поступил иначе.",
+         "Возможно, произошла ошибка в системе.",
+         "Я сомневаюсь, что он сможет это сделать без помощи.",
+         "Если бы у меня была возможность, я бы больше путешествовал.",
+         "Работа была завершена намного раньше, чем ожидалось.",
+         "Вероятно, он солгал о своём опыте.",
+         "Если бы ты меня слушал, мы не были бы в этой ситуации.",
+         "Я не думаю, что это было правильное решение.",
+         "Удивительно, чего он достиг за такое короткое время.",
+         "Хотя мне бы хотелось пойти, я не смог.",
+         "Если бы у меня было больше денег, я бы купил этот дом.",
+         "Надеюсь, тебе понравилась презентация.",
+         "Мне интересно, приняли бы они моё предложение.",
+         "Важно, чтобы ты знал правду перед принятием решения.",
+         "Он сказал, что сделает это, но я не уверен, что он выполнит обещание.",
+         "Если бы я знал всё это раньше, я бы поступил иначе."
+       ]
+     }
+   },
+     "Introductions": {
+ 
+     },
+     "Weather": {
+ 
+     },
+     "Clothing": {
+ 
+     },
+     "Sports": {
+ 
+     },
+     "Music": {
+ 
+     },
+     "Animals": {
+ 
+     },
+     "Travel": {
+ 
+     },
+     "Food": {
+ 
+     }
+ }
+ 
