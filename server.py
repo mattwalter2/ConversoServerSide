@@ -584,6 +584,7 @@ def upload_to_vector_database():
             event_handler= personalization_helper_event_handler,
     ) as stream:
         stream.until_done()
+    bot_response = personalization_helper_event_handler.response_value
     
     pc = Pinecone(api_key=pinecone_api_key)
 
@@ -600,7 +601,7 @@ def upload_to_vector_database():
     )
 
     data = [
-        {"id": "vec1", "text": "Apple is a popular fruit known for its sweetness and crisp texture."},
+        {"id": "vec1", "text": bot_response},
     ]
 
     print('3-')
