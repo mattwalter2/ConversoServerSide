@@ -13,6 +13,8 @@ from spellchecker import SpellChecker
 import os
 import requests
 from dotenv import load_dotenv
+from pinecone import Pinecone, ServerlessSpec
+import time
 
 
 
@@ -554,4 +556,75 @@ def reset_chat():
 def check_server():
     server_info = request.environ.get('SERVER_SOFTWARE', 'Unknown')
     return jsonify({'server': server_info}), 200
+
+
+@app.route('/upload-to-vector-database', methods=['POST'])
+def upload_to_vector_database():
+    data = request.get_json()
+    
+    # Extract 'prompt' and 'messagesList' from the JSON payload
+    users_uid = data.get('users_uid')
+    combined_users_messages = data.get('combined_users_messages')
+    client = OpenAI(api_key=api_key)
+    personalization_helper = client.beta.assistants.retrieve("asst_bKZLlRSF7B7Tzh1BcK0wsmLd")
+    personalization_helper_thread = client.beta.threads.create()
+    
+
+    personalization_helper_event_handler = EventHandler()
+    with client.beta.threads.runs.stream(
+            thread_id= personalization_helper_thread.id,
+            assistant_id= personalization_helper.id,
+            additional_messages=[{"role": "user","content": combined_users_messages}],
+    
+        
+            event_handler= personalization_helper_event_handler,
+    ) as stream:
+        stream.until_done()
+    
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+
+    index_name = users_uid
+
+    pc.create_index(
+        name=index_name,
+        dimension=1024, # Replace with your model dimensions
+        metric="cosine", # Replace with your model metric
+        spec=ServerlessSpec(
+            cloud="aws",
+            region="us-east-1"
+        ) 
+    )
+
+    data = [
+        {"id": "vec1", "text": "Apple is a popular fruit known for its sweetness and crisp texture."},
+    ]
+
+    embeddings = pc.inference.embed(
+        model="multilingual-e5-large",
+        inputs=[d['text'] for d in data],
+        parameters={"input_type": "passage", "truncate": "END"}
+    )
+    print(embeddings[0])
+
+    # Wait for the index to be ready
+    while not pc.describe_index(index_name).status['ready']:
+        time.sleep(1)
+
+    index = pc.Index(index_name)
+
+    vectors = []
+    for d, e in zip(data, embeddings):
+        vectors.append({
+            "id": d['id'],
+            "values": e['values'],
+            "metadata": {'text': d['text']}
+        })
+
+    index.upsert(
+        vectors=vectors,
+        namespace="ns1"
+    )
+
+    print(index.describe_index_stats())
+    return 200
 
