@@ -560,16 +560,18 @@ def check_server():
 
 @app.route('/upload-to-vector-database', methods=['POST'])
 def upload_to_vector_database():
+    print('very beginning')
     data = request.get_json()
     
     # Extract 'prompt' and 'messagesList' from the JSON payload
     users_uid = data.get('users_uid')
+    print('starting')
     combined_users_messages = data.get('combined_users_messages')
     client = OpenAI(api_key=api_key)
     personalization_helper = client.beta.assistants.retrieve("asst_bKZLlRSF7B7Tzh1BcK0wsmLd")
     personalization_helper_thread = client.beta.threads.create()
     
-
+    print('1-')
     personalization_helper_event_handler = EventHandler()
     with client.beta.threads.runs.stream(
             thread_id= personalization_helper_thread.id,
@@ -584,7 +586,7 @@ def upload_to_vector_database():
     pc = Pinecone(api_key=PINECONE_API_KEY)
 
     index_name = users_uid
-
+    print('2-')
     pc.create_index(
         name=index_name,
         dimension=1024, # Replace with your model dimensions
@@ -598,6 +600,8 @@ def upload_to_vector_database():
     data = [
         {"id": "vec1", "text": "Apple is a popular fruit known for its sweetness and crisp texture."},
     ]
+
+    print('3-')
 
     embeddings = pc.inference.embed(
         model="multilingual-e5-large",
