@@ -25,6 +25,8 @@ CORS(app)  # This is necessary to handle CORS if your Flutter app and this backe
 load_dotenv()
 
 api_key = os.getenv('OPENAI_API_KEY')
+pinecone_api_key = os.getenv('PINECONE_API_KEY')
+
 if not api_key:
     raise ValueError("API key not found. Please set the OPENAI_API_KEY environment variable.")
 
@@ -583,7 +585,7 @@ def upload_to_vector_database():
     ) as stream:
         stream.until_done()
     
-    pc = Pinecone(api_key=PINECONE_API_KEY)
+    pc = Pinecone(api_key=pinecone_api_key)
 
     index_name = users_uid
     print('2-')
