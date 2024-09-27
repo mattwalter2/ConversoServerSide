@@ -587,7 +587,7 @@ def upload_to_vector_database():
     
     pc = Pinecone(api_key=pinecone_api_key)
 
-    index_name = users_uid
+    index_name = users_uid.lower()
     print('2-')
     pc.create_index(
         name=index_name,
