@@ -584,7 +584,7 @@ def upload_to_vector_database():
             event_handler= personalization_helper_event_handler,
     ) as stream:
         stream.until_done()
-    bot_response = personalization_helper_event_handler.response_value
+    bot_response = personalization_helper_event_handler.current_response
     
     pc = Pinecone(api_key=pinecone_api_key)
 
